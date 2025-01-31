@@ -1,0 +1,21 @@
+			==========================================================
+				Reading the Input Data Dynamically From KeyBoard
+			==========================================================
+=>In Python Programming, To read the Data Dynamically From KeyBoard, we have 2 Pre-Defined Functions. They are
+
+				1. input()
+				2. input(Message)
+----------------------------------------------------------------------------------------------------
+1. input()
+----------------------------------------------------------------------------------------------------
+=>Syntax:   varname=input()
+=>input() is used for Reading Any Type of Data from Key Board in the form of <class, str> and that value will place in 
+   LHS Variable Name
+=>To convert str type value into Our Possibile Type Value, we use Type Casting functions.
+----------------------------------------------------------------------------------------------------
+2. input(Message)
+----------------------------------------------------------------------------------------------------
+=>Syntax:   varname=input(Message)
+=>Here Message Reprsents str type and It is Considered as  User-Prompting Message
+=>This Function is used for Reading any Type of Data from Key Board in the form str and that Value Placed in LSH Variable and additionally This Function generates User-Prompting Message.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,70 @@
+			=============================================================
+				Module Name Required for Developing Network Programming
+			=============================================================
+=>The Module Name Required for Developing Network Programming is 'socket'.
+=>The 'socket' is a module which contains Variable Names, functions and Class Names.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Functions in socket module
+-----------------------------------------------------------------------------------------------------------------------------------------------
+1. socket()
+---------------------------------
+Syntax:   varname=socket.socket()
+=>This Function is used for Creating an object of socket whose type is <class, socket.Socket>
+Examples:     s=socket.socket()
+			here s is an object of <class socket.Socket>
+=>If we write the above statement at Client Side then It is called Client Socket.
+=>If we write the above statement at Server Side then It is called Server Socket.
+=>In General, A socket Object is considered as Bi-Directional Communication entity between Two Ends(Client, Server).
+-----------------------------------
+2. bind()
+-----------------------------------
+Syntax:     serversockobj.bind( ("DNS/IPAddress",portno) )
+=>This Function makes socket object to bind with Certaing Machine(DNS / IP Address) along with Port number that socket is called server socket.
+=>Example:    s.bind(("localhost",8888) )
+				OR
+			s.bind(("127.0.0.1",8888))
+--------------------------------------
+3. listen()
+--------------------------------------
+=>Syntax:    serversockobj.listen(Number of Clients)
+=>This Function is used for Making the server side program to be configured in such way that to how many client the server side program ca communicate.
+=>Examples:   serversockobj.listen(3)
+----------------------------------
+4. accept()--most imp
+----------------------------------
+Syntax:          var1,var2 = serversockobj.accept()
+=>This Function is used for accepting the Request of Client Side Program.
+=>Accepting Client Request is nothing but getting Client Object (client socket) and Its Address(IpAddress).
+=>Here var1 Represents an object of Client (Nothing Client socket)
+=>Here var2 Represents an IP Address of Client.
+=>Example:     clientsock,clientaddr=serversock.accept()
+---------------------------------------------------
+5. recv() with decode()
+---------------------------------------------------
+Syntax:			bytesobj=clientsockobj.recv( 1024 OR 2048 OR 4096 )
+				strdata=bytesobj.decode()
+						OR
+				strobj=clientsockobj.recv( 1024 OR 2048 OR 4096 ).decode()
+=>This Function is used for Redaing the Client Requested Data at Server Side Program.
+=>This Function can be used at Server Side for Receving Client Request and Used at Cient Side Program for Receving 
+    Server Response.
+NOTE: We can convert strdata into another Possible type by using type Casting fucntions.
+---------------------------------------------------
+6. send() with encode()
+---------------------------------------------------
+			   bytesdata=str(NonStr-Value).encode()
+=>Syntax:           ClientSockobj.send(  bytesdata )
+					OR
+				ClientSockobj.send( str(NonStr-Value).encode()  )
+=>This Function is used for Sending Request of Client to Server and It can also be used to send Response of Server Side Program to Client side Program
+-----------------------------------------------------------------------------------------------------------------------------------------------
+7. connect()
+-----------------------------------------------------------------------------------------------------------------------------------------------
+=>Syntax:  Clientsockobj.connect ( ("DNS/IPAddress",portno ) )
+=>This Function is used for Obtaining Connection from Server Side Program.
+=>Examples:    s=socket.socket()
+			s.connect(("localhost",8888))
+				OR
+			s.connect(("127.0.0.1",8888))
+-----------------------------------------------------------------------------------------------------------------------------------------------
+

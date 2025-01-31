@@ -1,0 +1,68 @@
+				===========================================================
+							Files OR Stearms in Python
+				===========================================================
+Index
+------------------------------------------------------------
+=>Purpose of Files 
+=>Types of Applications
+		a) Non-Persistant Applications
+		b) Persistant Applications
+=>Definition of Files and Streams
+=>Operations on Files
+		a) Write Operation
+		b) Read Operation
+=>Types of Files
+		a) Text Files
+		b) Binary Files
+-----------------------------------------------------------
+=>File Opening Modes
+		i. r		ii. w		iii. a
+		iv. r+	v. w+	vi. a+
+		vii. x	viii. x+
+=>Number of Approaches to open the File
+		a) By using open()
+		b) By using " with open() as " 
+=>Programming Examples
+=>File Pointer Attributes
+------------------------------------------------------------
+=>Writing the Data to the File
+		a) write()
+		b) writelines()
+=>Programming Examples
+=>Reading the Data from Files
+		a) read()
+		b) readlines()
+=>Programming Examples
+=>Working with Random Access Files
+		a) seek()
+		b) tell()
+=>Programming Examples
+--------------------------------------------------------------
+=>Pickling(Object Serialization) and Un-Pickling(De-Object Serialization) Concepts
+=>Working with pickle module
+			a) dump()
+			b) load()
+=>Programing Examples
+=>Student Information System Project
+-------------------------------------------------------------
+=>Working CSV Files 
+=>Implementation of "csv" module
+			a) csv.reader()
+			b) csv.writer()
+			c) csv.DictReader()
+			d) csv.DictWriter()
+=>Programming Examples
+---------------------------------------------------------------
+=>Working JSON Files
+=>implementation of JSON Files with "json" module
+			a) json.loads()
+			b) json.dump()
+			c) json.load()
+=>Programming Examples
+--------------------------------------------------------------
+=>Working with OS Based Operations
+=>implementation of OS Based Operations with "os" module.
+=>Programming Examples
+=============================================x===================================
+
+

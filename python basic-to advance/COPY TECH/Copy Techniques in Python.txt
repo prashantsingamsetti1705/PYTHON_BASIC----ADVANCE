@@ -1,0 +1,52 @@
+			=========================================================
+						Copy Techniques in Python
+			=========================================================
+=>In Python Programming, we have 2 types of Copy Techniques. They are
+
+			1. Shallow Copy
+			2. Deep Copy
+-------------------------------------------------------------------------------------------------------------------------------------------
+1. Shallow Copy
+-------------------------------------------------------------------------------------------------------------------------------------------
+=>The Properties of Shallow Copy are
+			i) The Initial Content of Both the Objects are Same.
+			ii) The Memory Address of Both the Objects are Different.
+			iii) The Modifications are Independent .
+			      (Whatever the changes we do on one object, those changes are not reflected to another object)
+=>To Implement Shallow Copy, we use copy()			
+=>Syntax:     listobj2=listobj1.copy()
+---------------------------------
+Examples
+---------------------------------
+>>> lst1=[10,"RS"]
+>>> print(lst1,id(lst1))---------------------[10, 'RS'] 2714282103360
+>>> lst2=lst1.copy() # Shallow Copy
+>>> print(lst2,id(lst2))---------------------[10, 'RS'] 2714284885504
+>>> lst1.append("Python")
+>>> lst2.insert(1,23.45)
+>>> print(lst1,id(lst1))--------------------[10, 'RS', 'Python'] 2714282103360
+>>> print(lst2,id(lst2))--------------------[10, 23.45, 'RS'] 2714284885504
+-------------------------------------------------------------------------------------------------------------------------------------------
+2. Deep Copy
+-------------------------------------------------------------------------------------------------------------------------------------------
+=>The Properties of Deep Copy are
+			i) The Initial Content of Both the Objects are Same.
+			ii) The Memory Address of Both the Objects are Same
+			iii) The Modifications are Dependent .
+			      (Whatever the changes we do on one object, those changes are  reflected to another object)
+=>To Implement Deep Copy, we Assignment Operator ( = ) only.
+=>Syntax:    Listobj2=Listobj1
+----------------------------
+Examples
+----------------------------
+>>> lst1=[10,"RS"]
+>>> print(lst1,id(lst1))-------------------------------[10, 'RS'] 2714285133376
+>>> lst2=lst1 # Deep Copy
+>>> print(lst2,id(lst2))-------------------------------[10, 'RS'] 2714285133376
+>>> lst1.append("PYTHON")
+>>> print(lst1,id(lst1))-------------------------------[10, 'RS', 'PYTHON'] 2714285133376
+>>> print(lst2,id(lst2))-------------------------------[10, 'RS', 'PYTHON'] 2714285133376
+>>> lst2.insert(2,2+3j)
+>>> print(lst1,id(lst1))-------------------------------[10, 'RS', (2+3j), 'PYTHON'] 2714285133376
+>>> print(lst2,id(lst2))-------------------------------[10, 'RS', (2+3j), 'PYTHON'] 2714285133376
+-------------------------------------------------------------------------------------------------------------------------------------------

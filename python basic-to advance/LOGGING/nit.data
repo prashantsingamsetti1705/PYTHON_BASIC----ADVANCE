@@ -1,0 +1,11 @@
+CRITICAL:root:Critical Messages
+ERROR:root:Error Message
+CRITICAL: Critical Messages
+ERROR: Error Message
+WARNING: Warning Message
+2025-01-02 10:27:48,029  : CRITICAL: Critical Messages
+2025-01-02 10:27:48,029  : ERROR: Error Message
+2025-01-02 10:27:48,029  : WARNING: Warning Message
+02/01/2025  10:33:53 AM   : CRITICAL: Critical Messages
+02/01/2025  10:33:53 AM   : ERROR: Error Message
+02/01/2025  10:33:53 AM   : WARNING: Warning Message

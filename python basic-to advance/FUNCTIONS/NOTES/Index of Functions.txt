@@ -1,0 +1,50 @@
+			=============================================================
+						Functions in Python
+						Functions(6)---->Modules(2)---->Packages(1)
+			=============================================================
+Index
+--------------------------------------------------------------------------
+=>Purpose of Functions
+=>Types of Languages
+		a) Un-Structured Programming Languages
+		a)Structured Programming Languages
+=>Advantages of Functions
+=>Parts of Functions
+=>Phases in Functions
+=>Syntax for Defining Functions In Python
+=>Number of Approaches to Define Fucntions
+=>Programming Examples
+--------------------------------------------------------------------------
+=>Parameters and Arguments
+=>Types of Arguments
+		i) Positional Arguments
+		ii) Defualt Arguments
+		iii) Keyword Arguments
+		iv) Variable Length Arguments
+		v) Keyword Variable Length Arguments
+=>Programming Examples
+------------------------------------------------------------------------------
+=>Local and Global Variables
+=>Programming Examples
+=>global Keyword
+=>Programming Examples
+=>globals()
+=>Programming Examples
+--------------------------------------------------------------------------------
+=>Comprehension Techniques
+		i) List Comprehension
+		ii) Set Comprehension
+		iii) Dict Comprehension
+		iv) tuple Comprehension (Not there)
+=>Programming Examples
+--------------------------------------------------------------------------------
+=>Working with Anonymous OR Lambda Functions
+=>Implementation of Anonymous OR Lambda Functions
+=>Programming Examples
+---------------------------------------------------------------------------------
+=>Special Functions in Python
+		i) filter() with Normal and Anonymous  Functions
+		ii) map() with Normal and Anonymous  Functions
+		iii reduce() with Normal and Anonymous  Functions
+=>Programming Examples
+-------------------------------------------------------------------------------------------------------------------------------------------------------------

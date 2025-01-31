@@ -1,0 +1,44 @@
+				=================================================
+						Python Logging 
+				=================================================
+=>Python Logging is a concept allows the Programmers to Track or Record the Events while Program is running in the file and File is called Log File
+---------------------------------------------------------
+=>To Implement python logging, we have a pre-defined module called 'logging'.
+=>To write the Message to log file, we have logging levels. They are
+
+
+		1. CRITICAL--------------------50
+		2. ERROR-----------------------40
+		3. WARNING--------------------30  (default)
+		4. INFO---------------------------20
+		5. DEBUG------------------------10
+		6. NOTSET-----------------------0
+Data Members OR Global Var in logging module------We must access w.r.t Module Namee
+=>logging.CRITICAL , logging.ERROR,...........................etc
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+		How to Implement Python Logging
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>import logging module
+=>Open the log file and other attrubutes used for logging Process, like logging level, time stamp...etc
+					basicConfig() present in logging module
+		logging.basicConfig(filename="Log File Name",level="Logging level", filemode="File mode",														format="Formatting Messges",
+												datefmt="date related information")
+
+=>Write the Logging Message to the log file by using the functions in logging module
+
+			logging.critical("Critical Messages")
+			logging.warning("Warning Messages")
+			logging.error("Error Message")
+			logging.info("Information message")
+			logging.debug("Debuging Message")
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Write a Python Program for Create a Log File and write Some messages to log file
+
+		import logging
+		loggig.basicConfig(filename="nit.info",level=logging.ERROR)
+		print("Logging Concept is going on")
+		logging.critical("Critical Messages")
+		logging.error("Error Message")
+		logging.warning("Warning Message")
+		logging.info("Information message")
+		logging.debug("Debuging Message")		

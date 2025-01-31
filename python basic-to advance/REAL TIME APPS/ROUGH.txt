@@ -1,0 +1,18 @@
+
+Task
+My requirment: I want to Generate calendar for a Month of an year
+
+	C++,C Lang----------->450+ Lines of Code--Most Difficult
+	Java Lang-------------->25 Lines of Code---Easy
+	Python Lang-----------> 2 lines of Code-----
+						Less of Lines of Code and Gives more Meaning--MODULES
+
+
+
+Library: Source where It comes along Softwares / lang when we Install
+-------------
+
+C  Prog Lang------>Libraries-----are called Header Files
+C++ Prog Lang--->Libraries----are called Header Files
+Java Prog Lang---Libraries------are called Packages
+Python Prog lang------>libraries are called ---- MODULES

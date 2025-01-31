@@ -1,0 +1,30 @@
+		===============================================================
+				Number of Approaches to Define Functions
+		===============================================================
+=>To Define any Function for any Given Problem, we can Define that Function with the Following 4 Approaches.
+
+--------------------------------------------------
+Approach1:
+--------------------------------------------------
+#INPUT          : Taking from Function Call
+#PROCESS   : Done inside of Function Body
+#RESULT      : Giving Back to Function Call
+--------------------------------------------------
+Approach2:
+--------------------------------------------------
+#INPUT     : Inside the Function Body
+#PROCESS   : Inside the Function Body
+#RESULT    : Inside the Function Body
+--------------------------------------------------
+Approach3:
+--------------------------------------------------
+#INPUT     : Taking from Function Call
+#PROCESS   : Done inside of Function Body
+#RESULT    : Inside the Function Body
+--------------------------------------------------
+Approach4:
+--------------------------------------------------
+#INPUT     : Inside the Function Body
+#PROCESS   : Inside the Function Body
+#RESULT    : Giving Back to Function Call
+--------------------------------------------------

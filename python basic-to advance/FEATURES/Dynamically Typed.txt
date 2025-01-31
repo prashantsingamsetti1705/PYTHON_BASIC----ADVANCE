@@ -1,0 +1,50 @@
+			=====================================================
+						3. Dynamically Typed 
+			=====================================================
+=>In IT, we have Two types of Programming Languages. They are
+
+			1. Static Typed Programming Languages
+			2. Dynamically Typed Programming Languages
+----------------------------------------------------------------------------------------------------------------------------------------------------
+1. Static Typed Programming Languages
+----------------------------------------------------------------------------------------------------------------------------------------------------
+=>In Static Typed Programming Languages, To Store the Data, It is mandatory to the Programmer to Sepcify Variable 
+    Declaration (Data Type Var1,Var2..Var-n) Otherwise we get Compile Time Error.
+=>The Difficulties of Programmer who is dealing Static Typed Programming Languages
+			i) It is Complex to Choose Appropriate Data Type.
+			ii) Once we specify, the Perticular Data Type, we have to store that Type of Value only (Static typed)
+			    Not Possible to Store Dynamic Values.
+Examples:  C, C++, Java, C#.net......etc
+--------------------------------
+Example Code in Java
+-------------------------------
+int a,b,c // Variable Declaration----Mandatory
+a=10
+b=20
+c=a+b
+System.out.println(a);
+System.out.println(b);
+System.out.println(c);
+a=1.2; //---  incompatible types: possible lossy conversion from double to int
+----------------------------------------------------------------------------------------------------------------------------------------------------
+2. Dynamically Typed Programming Languages.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+=>In Dynamically Typed Programming Languages, To store the Data, It is Not Necessary to Specify Variable 
+    Declaration bcoz Programming Language Execution environment will automatically assign the Data type depends on type of Value we are using in the Program.
+=>The Easiest part of the Programmer in   Dynamically Typed Programming Languages are
+			i) It is not necessary to thing about data type.
+			ii) It allows us to store Dynamic typed Values.
+Examples:  PYTHON
+------------------------------------
+Example Code in Python
+------------------------------------
+>>>a=10
+>>>b=20
+>>>c=a+b
+>>>print(a,type(a))------------ 10 <class 'int'>
+>>>print(b,type(b))-------------20 <class, 'int'>
+>>>print(c,type(c))-------------30 <class 'int'>
+>>>a=1.2
+>>>print(a,type(a))------------ 1.2 <class 'float'>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+

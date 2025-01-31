@@ -1,0 +1,26 @@
+		=========================================================================
+			Steps for Developing of Programmer OR User OR Custom-Defined Exceptions
+		=========================================================================
+=>Programmer OR User OR Custom Defined Exceptions are those which are developed by Python Programmers and they are available in Python Project and They are used by  Other Team Members of Same Project and They are always deals with Common Problems occuring in the project.
+=>Some of the Common Problems are
+			i) Attempting to enter Invalid User Name and Password 
+			ii) Attempting to enter Invalid PIN in ATM Applications
+			iii) Attempting to Withdraw More Amount than Existing Bal of Account
+			iv) Attempting to enter Invalid Names for People, Places , Product..etc
+=>To Develop Programmer OR User OR Custom-Defined Exceptions, we Follow 3 Steps
+
+	Step-1 : Choose and Define Programmer-Defined Class
+	Step-2 : The Programmer-Defined Class must Inherit from "Exception OR BaseException ( These Pre-Defined 
+			Super Classes for all exceptions in Python) for Inheriting all Features of Exception Handling and Hence the Programmer-Defined Class is called Programmer-Defined Exception Sub Class.
+	Step-3 : Save the Step-1 and Step-2 and Some File Name with an extension .py (To treat as Module)
+-----------------------------------------------------------------------------------------------------------------------------------
+Examples:   Define Exception Sub Class for Dealing with PIN Errors in ATM Apps
+
+			class PINError(Exception):pass
+
+Example:		Define exception sub class for dealing with Login Errors
+
+			class LoginError(BaseException):pass
+
+Here PINError, LoginError are called Programmer-Defined Exception Sub Classes.
+-----------------------------------------------------------------------------------------------------------------------------------------------

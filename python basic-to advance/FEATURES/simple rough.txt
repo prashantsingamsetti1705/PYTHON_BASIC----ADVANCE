@@ -1,0 +1,40 @@
+
+Some Req:      I want to Calculate Factorial of a Number
+
+				C Lang------ 15 lines of code
+				C++ Lang----15 lines of Code
+				Java Lang----15 Lines of Code
+
+
+				PYTHON ------ 2 Lines-------Less Lines of Code and More Meaning---MODULES
+
+
+Want to Generate OTP------C  lang
+					     c++ lang
+					     Java Lang----Min 50 -60 Lines of Code
+
+					     PYTHON-----2 Lines----MODULES
+
+Want generate Calendar------of year and month
+						C lang----450 Lines
+						Java , C#.net----25 Lines
+
+						PYTHON----2 Lines---MODULES
+
+
+Library: Source where Pre-Defined Code Present in lang----Developers
+
+Libraries --  in---C, C++---- are called Header Files
+		 --- Java--------------are called Packages
+		 --PYTHON---------MODULES---------------
+
+
+
+
+
+If we learn Libraries well then u / Student / Programmer can Re-Use The pre-Defined Code
+
+
+If the Teacher is having Industry Exp
+		i) How Re-Use The pre-Defined Code from Libraries----After entering into the JOB--How to do the project
+		ii) How Develop any Problem By Building the Logic--For Getting job

@@ -1,0 +1,115 @@
+			======================================================
+							1. set 
+			======================================================
+Index
+-------------
+=>What is set
+=>Purpose of set
+=>Notations for set
+=>syntax for creating set
+=>Types of set Objects
+=>Memory Management of set
+=>Pre-Defined Functions set
+=>Programming Examples
+=>Inner OR Nested set
+=>Pre-Defined functions in Nested OR Inner set	
+=>Combinations of set with  set, list and tuple
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Properties of set
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>'set' is one of the Pre-Defined and treated as Set Category Data Type.
+=>The purpose of set data type is that "To store multiple values either of Same Type OR Different Type OR Both Types 
+    with Unique  in single Object (Duplicates are not allowed)"
+=>The Elements of set must enclosed within Curly Braces {} and Elements separated by comma.
+		varname={Val1,Val2,.....,Val-n}
+=>An object of set never maintains Insertion Order bcoz PVM displays any One of the Possibility of set Elements.
+=>On set object, we can't perform Indexing and Slicing Operations bcoz Set never Maintains Insertion Order.
+=>An Object of set Belongs to Both MUTABLE bcoz set object allows us to add, remove..etc Operations on set data at 
+    same address  and IMMUTABLE bcoz 'set' object does not support item assignment.
+=>We can convert Other Type of Values into set type values by using set()
+=>In Python Programming, We can create Two Types of set objects. They are
+			1. Empty Set Object
+			2. Non-Empty Set Object
+-----------------------------------
+1. Empty Set Object
+-----------------------------------
+=>An Empty Set Object is one, which does not contain any elements and whose length is 0
+=>Syntax:   setobj=set()  
+-----------------------------------
+2. Non-Empty Set Object
+-----------------------------------
+=>A Non-Empty Set  is one, which  contains any elements and whose length is >0.
+=>Syntax:    setobj={Val1,Val2,.....,Val-n}
+=>Syntax:    setobj=set(object) # here object represents Iterable Object
+=>Syntax:    setobj=set([object]) # here object represents Non-Iterable Object
+=>Syntax:    setobj=set((object,)) # here object represents Non-Iterable Object
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples
+---------------------------------------------------------------------------------------------------------------------------------------------------
+>>> s1={10,20,30,40,50,10,20,30,60,70}
+>>> print(s1,type(s1))--------------------{50, 20, 70, 40, 10, 60, 30} <class 'set'>
+>>> print(s1,type(s1))-------------------{50, 20, 70, 40, 10, 60, 30} <class 'set'>
+>>> s2={100,"TR",34.56,2+3j,True}
+>>> print(s2,type(s2))------------------{True, 34.56, 100, (2+3j), 'TR'} <class 'set'>
+---------------------------------------------------------------------------
+>>> s2={100,"TR",34.56,2+3j,True}
+>>> print(s2,type(s2))------------------{True, 34.56, 100, (2+3j), 'TR'} <class 'set'>
+>>> s2[0]-----------------------------------TypeError: 'set' object is not subscriptable
+>>> s2[0:4]---------------------------------TypeError: 'set' object is not subscriptable
+-------------------------------------------------------------------------------
+>>> s2={100,"TR",34.56,2+3j,True}
+>>> print(s2,type(s2))--------------------{True, 34.56, 100, (2+3j), 'TR'} <class 'set'>
+>>> s2[0]=False # trying to Update the value-----TypeError: 'set' object does not support item assignment
+-----------------------------------------------------------
+>>> s2={100,"TR",34.56,2+3j,True}
+>>> print(s2,type(s2),id(s2))--------------{True, 34.56, 100, (2+3j), 'TR'} <class 'set'> 2180716968224
+>>> s2.add("HYD")
+>>> print(s2,type(s2),id(s2))------------{True, 34.56, 'HYD', 100, (2+3j), 'TR'} <class 'set'> 2180716968224
+>>> s2.remove(34.56)
+>>> print(s2,type(s2),id(s2))------------{True, 'HYD', 100, (2+3j), 'TR'} <class 'set'> 2180716968224
+------------------------------------------------------
+>>> s=set()
+>>> print(s,type(s))---------------set() <class 'set'>
+>>> len(s)---------------------------0
+>>> s1={10,"RS",34.45,67,2+3j}
+>>> print(s1,type(s1))---------------------{34.45, 67, 'RS', 10, (2+3j)} <class 'set'>
+>>> len(s1)-----------------------------------5
+>>> s2={0b1010,0o12,0xBEE}
+>>> print(s2,type(s2))--------------------{10, 3054} <class 'set'>
+>>> len(s2)-----------------------------------2
+-------------------------------------------------------------------------------
+>>> s="MISSISSIPPI"
+>>> print(s,type(s))--------------------MISSISSIPPI <class 'str'>
+>>> st=set(s)
+>>> print(st,type(st))-----------------{'P', 'M', 'S', 'I'} <class 'set'>
+--------------------
+>>> lst=[10,20,30,10,20,30,40]
+>>> print(lst,type(lst))-------------[10, 20, 30, 10, 20, 30, 40] <class 'list'>
+>>> st=set(lst)
+>>> print(st,type(st))--------------{40, 10, 20, 30} <class 'set'>
+>>> s=set(range(100,116,5))
+>>> print(s,type(s))---------------{105, 115, 100, 110} <class 'set'>
+------------------------------------
+>>> a=10
+>>> print(a,type(a))-------------------10 <class 'int'>
+>>> s=set(a)----------------------------TypeError: 'int' object is not iterable
+>>> a=10
+>>> print(a,type(a))------------------10 <class 'int'>
+>>> s=set([a])
+>>> print(s,type(s))------------------{10} <class 'set'>
+>>> s=set((a,))
+>>> print(s,type(s))------------------{10} <class 'set'>
+--------------------------------------------------------------------------------------------------------------------------------------
+>>> s={10,20,30,40,50,60,10,20}
+>>> print(s,type(s))-------------------------{50, 20, 40, 10, 60, 30} <class 'set'>
+>>> for index,value in enumerate(s):
+...		print(index,"--->",value)
+...
+		0 ---> 50
+		1 ---> 20
+		2 ---> 40
+		3 ---> 10
+		4 ---> 60
+		5 ---> 30
+>>> s[0]--------------------------TypeError: 'set' object is not subscriptable
+======================================x============================================

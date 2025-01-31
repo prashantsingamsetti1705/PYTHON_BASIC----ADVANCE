@@ -1,0 +1,10 @@
+			====================================================
+					7. Robust (Strong )
+			====================================================
+=>Python Programming and whose Applications are Robust(Strong) Provided We must develop Python Based 
+   Applications with the concept of Exception Handling.
+ =>The purpose of Exception Handling is that "To Convert Technical Error Messages into User-Friendly Error 
+    Messages".
+============================================================================================
+
+ 

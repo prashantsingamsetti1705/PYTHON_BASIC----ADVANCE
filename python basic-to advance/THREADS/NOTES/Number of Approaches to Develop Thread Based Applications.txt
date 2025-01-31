@@ -1,0 +1,23 @@
+			============================================================
+					Number of Approaches to Develop Thread Based Applications
+			============================================================
+=>We have Two Approaches to Develop Thread Based Applications. They are
+
+		1. By using Functional Programming
+		2. By Using Object Oriented Programming
+--------------------------------------------------------------------------------------------------------------------------
+1. By using Functional Programming
+--------------------------------------------------------------------------------------------------------------------------
+Step-1:   import threading module and Other Modules if Required
+Step-2:   Define the Function(s), where It contains Prolem Solving Logic (thread logic)
+Step-3:  Create Sub Thread(s)
+Step-4:  Dispatch Sub Thread(s) for Executing the Target Function.
+--------------------------------------------------------------------------------------------------------------------------
+2. By Using Object Oriented Programming
+--------------------------------------------------------------------------------------------------------------------------
+Step-1: import threading module and Other Modules if Required
+Step-2: Choose the Class Name and Define 
+Step-3: Every Class Definition must Contain a Method, where It contains Prolem Solving Logic (thread logic)
+Step-4: Create Sub Thread(s)
+Step-5: Dispatch Sub Thread(s) for Executing the Target Function.
+--------------------------------------------------------------------------------------------------------------------------

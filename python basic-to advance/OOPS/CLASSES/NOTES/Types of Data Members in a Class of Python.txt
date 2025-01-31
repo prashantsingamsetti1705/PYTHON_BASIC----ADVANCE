@@ -1,0 +1,39 @@
+				=====================================================
+					Types of Data Members in a Class of Python
+				=====================================================
+=>In a class of Python, we can defined Two Types of Data Members. They are
+
+			1. Instance Data Members
+			2. Class Level Data Members
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Instance Data Members
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Instance Data Members are those whose memory space created Each and Every Time when an Object is Created 
+    and hence Instance Data Members are also called Object Level Data Members.
+=>Instance Data Members are Used for Storing Specific Values ( differs from one object to another object).
+=>Programatically Instance Data Memebrs can be specified in 3 Places.
+				i. through an Object
+				ii. Inside of Instance Method
+				iii. Inside of Constructor
+=>Instance Data Members are Must be accessed w.r.t Object Name  OR self
+				objectname.Instance Data Member Name
+						OR
+				self.Instance Data Member Name (To be used inside of Instance Method Name)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Class Level Data Members
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Class Level Data Members are those whose memory space created Only Once Irrespective Number of Objects are 
+    created w.r.t Corresponding Class.
+=>Class Level  Data Members are Used for Storing Common Values  for all the Objects of Same Class.
+=>Programatically Class Level Data Members can be specified in 3 Places.
+				i. Inside the Class Definition
+				ii. Inside of Class Level Method
+				iii. In Main Program
+=>Class Level Data Members are Must be accessed w.r.t Class Name  OR cls OR Object Name  
+				classname.Class Level Data Member Name
+						OR
+				cls.Class Level Data Member Name (To be used inside of Class Level Method Name)
+						OR
+				ObjectName.Class Level Data Member Name
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+		

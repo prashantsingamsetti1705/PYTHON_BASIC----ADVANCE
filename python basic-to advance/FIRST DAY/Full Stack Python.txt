@@ -1,0 +1,64 @@
+			=========================================================
+							Full Stack Python
+				
+				This Course is Designed by For Getting the JOB
+					Joining B.Tech(CSE)----Python
+			=========================================================
+**************************************************************************************************
+Part-1 : PYTHON PROGRAMMING LANGUGAGE (Back Bone for Full Stack)
+**************************************************************************************************
+		a) Core Python Programming 
+		b) Advanced Python Programming
+		c) Python for Data Science (Exclusive Training)
+			i) Numpy
+			ii) pandas
+			iii) matplotlib
+Projects: 4 Projects (2 from Python + 2 Python for Data Science )
+**************************************************************************************************
+Part-2: UI Technonlogies
+**************************************************************************************************
+	=>HTML
+	=>CSS
+	=>Java Script
+	=>Boot Strap
+	=>Angular / React
+**************************************************************************************************
+Part-3: Web Frameworks----- Web Project
+**************************************************************************************************
+	=>Django
+	=>Flask
+	=>Rest API
+**************************************************************************************************
+Part-4: Data Base Softwares
+**************************************************************************************************
+	=>MySQL
+	=>MongoDB
+**************************************************************************************************
+Part-5: Tools
+**************************************************************************************************
+	=>Git and GitHub
+	=>Test Methodlogies 
+	=>Cloud Platforms (AWS,GCP) Basics
+	=>Resume Building
+**************************************************************************************************
+
+For Leaning FULL STACK PYTHON and to get a Job, U need the Following Pre-Req:
+	
+			=>U Must be Graduate: B.Tech / BE, MCA, / MSc/Bsc/BCA/B.com/ Any Pharmacy...etc
+	=>To get the Job in Software , U Must Know DEEP CODING SKILLS from 
+											1) Hacker Rank
+											2) Leet Code
+		
+	=>To get the Job in Software and DEEP CODING SKILLS from  KVR
+			I DON'T Want  UR C, C++ , Java,C#.net-------(Dummy Student )
+
+					1) Student Must attend the classes Puntually
+					2) Student Practice the Uses Cases / Programs / Problems / Assignments
+					3) Student Read the Notes Daily
+					4) Student Must Respond in the class.
+
+	If U the Above Rules---KVR Makes u as EXPERT in CODING
+====================================x=================================================
+
+Full Stack Python & Python 9:00 AM by Mr.K.V.Rao
+Day-1 https://youtu.be/sAErLdY9ICo

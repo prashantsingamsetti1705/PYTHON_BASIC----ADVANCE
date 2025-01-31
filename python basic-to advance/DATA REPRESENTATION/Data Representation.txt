@@ -1,0 +1,93 @@
+			===========================================================
+						Data Representation 
+			===========================================================
+Index
+--------------------
+=>What is Data
+=>What is the Diff Between Data and Information
+=>Purpose of Data
+=>Types of Literals OR Values
+=>importance of Identifiers OR Variables in Programming
+=>Rules OR Properties for using Identifiers OR Variables
+=============================================================================================
+						What is Data
+			What is the Diff Between Data and Information
+=============================================================================================
+=>The purpose of Data in Real Time is that "To Take Effective Decisions".
+=>The Data which is entered by End-User,  By default stored in Main Memory (RAM), we can Process It and whose 
+     Results can stored Permanently in Secondary memory (hard disk) .
+=>Data can be Defined as Structured Format of Given Information
+			(OR)
+=>The Processed Information is called "Data"
+=>The Information is Considered as Un-Structured Format and can't Process It directly by using any Programming 
+    Lang.
+===========================================================================================
+				Types of Literals OR Values OR Data
+=============================================================================================
+=>In Any Programming language, we have 5 Fundamental Literals.
+			
+				1. Integer Literals OR Values.
+				2. Floating point Literals OR Values.
+				3. String Literals OR Values.
+				4. Boolean Literals OR Values.
+				5. Collection Literals OR Values  
+=============================================================================================
+			importance of Identifiers OR Variables in Programming
+=============================================================================================
+=>In Any Programming Language, Literals Must be Stored in Main Memory by allocating Sufficient  Amount of Memory space with the Help Of Data Types.
+=>We know that All types Literals are stored in main memory by having memory space.
+=>To Process values which are present in memory space , Programmers must give DISTINCT NAMES to the created memory spaces. These DISTINCT NAMES makes us to identify the values present in memory space and hence they are called IDENTIFIERS.
+=>The IDENTIFIER Values are Changing/ Varying during Program Execution and hence IDENTIFIERS are also called  VARIABLES.
+=>Hence All types of LITERALS are stored in the form VARIABLES and all Variables are called OBJECTS.
+-------------------------------
+Definition of variable
+-------------------------------
+=>A Variable is an Identifier whose Value can be changed during Program Execution.
+=============================================================================================
+		Rules OR Properties for using Identifiers OR Variables
+=============================================================================================
+=>In Python Programming, To use variables , we use the following rules.
+
+Rule-1: The Variable Name is a Combination of Alphabets, digits and a special symbol under scrore ( _ ). 
+-----------
+Rule-2: The First Letter of the Variable Name Must starts either with an Alphabet or with  under score only ( _ ).
+-----------
+				Examples:
+				---------------
+				1sal=56----invalid
+				sal1=56----valid
+				$sal=67----Invalid
+				-sal=78----invalid
+				sal_=56--valid
+				_=56------valid
+				_123=67---valid
+
+----------
+Rule-3:	Within the Variable Name, we can't use any special symbols except under score ( _ ).	
+-----------
+			Examples
+			--------------
+					emp  sal=56----invalid
+					emp-sal=56----Invalid
+					emp$sal=56---Invalid
+					emp_sal=56---Valid
+		NOTE: here Symbol # is used for single commeting purpose
+----------
+Rule-4:	No Keywords to be used as Variable Names (bcoz Keywords are the Reserved words  and they some special	------------	meaning to the language compilers
+		
+		Examples:
+		-----------------
+				True=67---invalid
+				False=67--invalid
+				and=56---invalid
+				and1=56---Valid
+
+------------
+Rule-5:        All Variable names are Case Sensitive.
+------------
+		>>> AGE=99
+		>>> age=98
+		>>> Age=97
+		>>> aGe=96
+		>>> print(AGE,age,Age,aGe)-------------	99 98 97 96
+=============================================================================================

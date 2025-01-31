@@ -1,0 +1,24 @@
+				========================================================
+							Decorators in Python
+				========================================================
+=>A Decorator is one of the Function which will provide Additional Functionality to the Normal Function.
+=>A Decorator always takes Normal Function as Parameter.
+    -----------------------------------------------
+=>Syntax for Defining Decorator
+    -----------------------------------------------
+			def  Function-Name1(Formal Parameter for Normal Function): # Decorator Def OR Outer Function Def.
+			       def   Function_Name2(): # Inner Function 
+			               --------------------------------
+				       --------------------------------
+				       Block of Statements
+				       provides Addl. Functionality to Normal Function
+				       --------------------------------
+				       --------------------------------
+				       retun result of  Function_Name2
+				return Function_Name2
+
+=>Here Function-Name1 is called Decorator
+=>Here Function-Name2 is called Inner Function.
+=========================================x=================================
+
+

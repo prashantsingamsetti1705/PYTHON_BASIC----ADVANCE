@@ -1,0 +1,28 @@
+				====================================================
+						Regular Expressions in Python
+				====================================================
+Index
+--------------------------------------
+=>Purpose of Regular Expressions
+=>Definition of Regular Expression
+=>Applications of Regular Expressions
+=>Module Name Required for Developing Regular Expressions Applications--'re'
+=>Functions in 're' module
+		1. search()
+		2. findall()
+		3. finditer()
+		4. start()
+		5. end()
+		6. group()
+		7. sub()
+=>Programming Examples
+--------------------------------------------------------------------------
+=>Programmer-Defined Character Classes
+=>Programming Examples
+=>Pre-Defined Character Classes
+=>Programming Examples
+=>Quantifiers 
+=>Programming Examples
+=>Misc Concepts on Programmer-Defined,Pre-Defined Character Classes and Quantifiers 
+=>Combined Programming Examples on Programmer-Defined,Pre-Defined Character Classes and Quantifiers 
+-----------------------------------------------------------------------------------------------------------------

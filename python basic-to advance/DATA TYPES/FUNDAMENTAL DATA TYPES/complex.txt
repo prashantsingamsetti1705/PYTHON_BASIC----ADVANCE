@@ -1,0 +1,88 @@
+			=====================================================
+							complex
+			=====================================================
+=>'complex' is one of the Pre-Defined Class and treated as Fundamental Data Type.
+=>The purpose of complex data type is that "To Store Complex Values".
+=>The general notation of Complex Value is shown Bellow.
+						a+bj  OR  a-bj
+	=>here 'a' is called Real Part
+	=>Here 'b' is called Imaginary Part
+	=>Here 'j' Represents sqrt(-1)  OR  sqr(j)=-1
+=>In the Complex Value Notation, Real and Imaginary Parts are Treated as float type.
+=>To Extract OR Obtain the Real and Imaginary Parts of Complex Object, we use Two Pre-Defined Attributes. They are
+					1. real
+					2. imag
+		=>Syntax:
+		----------------	complexobj.real------>Gives Real Part of Complex Object
+					complexobj.imag----->Gives Imginary Part of Complex Object
+
+=>On Complex Data, we Can Perform All types of Arithmetic Operations such as addition, substraction, 
+    multiplication...etc.
+---------------------------------------------------------------------------------------------
+Examples
+---------------------------------------------------------------------------------------------
+>>> a=2+3j
+>>> print(a,type(a))-------------------------------(2+3j) <class 'complex'>
+>>> a=2-3j
+>>> print(a,type(a))------------------------------(2-3j) <class 'complex'>
+>>> a=-2-4j
+>>> print(a,type(a))------------------------------(-2-4j) <class 'complex'>
+>>> a=-2+5j
+>>> print(a,type(a))------------------------------(-2+5j) <class 'complex'>
+---------------------------------------
+>>> a=1.5+3.7j
+>>> print(a,type(a))--------------------------(1.5+3.7j) <class 'complex'>
+>>> a=10.4-4.5j
+>>> print(a,type(a))--------------------------(10.4-4.5j) <class 'complex'>
+>>> a=-3.4+4.5j
+>>> print(a,type(a))--------------------------(-3.4+4.5j) <class 'complex'>
+>>> a=-3.4-4.5j
+>>> print(a,type(a))---------------------------(-3.4-4.5j) <class 'complex'>
+------------------------------------------
+>>> a=2+3.5j
+>>> print(a,type(a))---------------------(2+3.5j) <class 'complex'>
+>>> a=-2.5+4j
+>>> print(a,type(a))---------------------(-2.5+4j) <class 'complex'>
+>>> a=-3.6-5.6j
+>>> print(a,type(a))----------------------(-3.6-5.6j) <class 'complex'>
+>>> a=2.8-4.6j
+>>> print(a,type(a))----------------------(2.8-4.6j) <class 'complex'>
+---------------------------------------------------------------------------
+>>> a=2+3j
+>>> print(a,type(a))------------------------(2+3j) <class 'complex'>
+>>> print(a.real)---------------------------2.0
+>>> print(a.imag)--------------------------3.0
+>>> a=2.3+4.5j
+>>> print(a,type(a))----------------------(2.3+4.5j) <class 'complex'>
+>>> print(a.real)--------------------------2.3
+>>> print(a.imag)-------------------------4.5
+>>> a=-2.3-3.4j
+>>> print(a,type(a))----------------------(-2.3-3.4j) <class 'complex'>
+>>> print(a.real)---------------------------2.3
+>>> print(a.imag)---------------------------3.4
+>>> print(a.imaginary)----------------------AttributeError: 'complex' object has no attribute 'imaginary'
+-------------------------------
+>>> a=2j
+>>> print(a,type(a))-------------2j <class 'complex'>
+>>> print(a.real)------------------0.0
+>>> print(a.imag)-----------------2.0
+>>> a=-2.5j
+>>> print(a,type(a))----------------(-0-2.5j) <class 'complex'>
+>>> print(a.real)---------------------0.0
+>>> print(a.imag)--------------------   -2.5
+---------------------------------------------------------------------------------
+>>> a=2+3j
+>>> b=3+4j
+>>> c=a+b
+>>> print(c,type(c))--------------------------(5+7j) <class 'complex'>
+>>> print(a-b)----------------------------------(-1-1j)
+-------------------------
+>>> print(2+2j+4j)-------------------------(2+6j)
+----------------------------------
+>>> a=2+3j
+>>> b=3+4j
+>>> c=a*b
+>>> print(c,type(c))-----------------------(-6+17j) <class 'complex'>
+>>> print(c.real)---------------------------  -6.0
+>>> print(c.imag)-------------------------- 17.0
+======================================x===================================================

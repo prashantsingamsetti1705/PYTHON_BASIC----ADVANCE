@@ -1,0 +1,14 @@
+			==================================================
+					Polymorphism in Python
+			==================================================
+=>The Polymorphism is one of the Best Principle in OOP Lang
+=>The Advantage of Polymorphism is that "To Takes Less Memory Space"
+=>The Process of Representing "One Form in Multiple Forms" is called Polymorphism
+=>One Form Represents Original Method
+=>Multiple Forms Represents Overridden Methods
+=>A Form is Nothing But State of Existence of Method. If the Method Exist in Base Class then It is called Original Method and If the method exist in Derived Class then It is called Overridden Methods.
+=>To Implement Polymorphism in Python Lang, we Have Two Programming Concepts. They are
+					1. Method Overriding
+					2. Constructor Overriding
+------------------------------------------------------------------------------------------------------------------------------------------------
+

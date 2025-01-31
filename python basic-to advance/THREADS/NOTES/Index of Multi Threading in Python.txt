@@ -1,0 +1,29 @@
+				========================================================
+						Multi Threading in Python--Product Based  
+				========================================================
+-----------------------------
+Index
+-----------------------------
+=>Types of Applications 
+		1. Process Based Applications
+		2. Thread Based Applications
+=>Purpose of Multi Threading
+=>Muti Tasking VS Multi Threading
+=>Definition of Thread
+=>Purpose of Thread
+=>Module Name Requrired  developing Multi Threading Applications --threading
+=>Functions and Classes in threading module
+=>Programming Examples
+----------------------------------------------------------------------------------
+=>Number of Approaches to Develop Thread Based Applications
+		i. By using Functional Programming
+		ii. By using Object Orineted Programming
+=>Programming Examples
+=>Creating Multiple Threads and Its Flows
+=>Programming Examples
+-----------------------------------------------------------------------------------
+=>Dead Lock Occurence 
+=>Dead Lock Elimination by using Thread Synchronization Tech
+=>Implementation of Lock Class
+=>Programming Examples
+============================================x==========================================

@@ -1,0 +1,23 @@
+
+					================================================
+							ATM OR Funds Transfer Application
+					================================================
+							1. Deposit
+							2. Withdraw
+							3. Bal Enq
+							4. Exit
+					================================================
+						Enter Ur Choice:
+					================================================
+File System
+-----------------
+1. ATMExcept.py
+	---------------------------
+	---------------------------
+2. ATMMenu.py
+	menu()
+3.  ATMOperations.py
+		deposit()
+		withdraw()
+		balenq()
+4. ATMMainProg.py

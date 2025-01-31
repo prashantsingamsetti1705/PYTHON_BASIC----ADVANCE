@@ -1,0 +1,20 @@
+			================================================
+						Modules in Python
+			================================================
+Index
+------------------------------------------------------------------------------------------------------------------------
+=>Purpose of Modules
+=>Definition of Module
+=>Types  of Modules
+		a) Pre-Defined OR Built-in Modules
+		b) Programmer OR User OR Custom-Defined Modules
+=>Development of Programmer OR User OR Custom-Defined Modules
+=>Programming Examples
+=>Number of Approaches  to Re-Use The Features of Modules
+		a) By using import statement
+		b) By using "from...... import statement"
+				Syntax1
+				Syntax2
+				Syntax3
+=>Programming Examples
+-------------------------------------------------------------------------------------------------------------------

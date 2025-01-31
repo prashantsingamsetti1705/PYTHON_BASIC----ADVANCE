@@ -1,0 +1,45 @@
+				======================================================
+						Programmer-Defined Character Classes
+				=====================================================
+=>The Programmer-Defined Character Classes defined by Python Programmers and They are used in building Search Pattern and they are used for Searching OR Finding OR Maching in given data and Obtains Desired Result.
+=>Syntax: "[  Programmer-Defined Character Classe ]"
+=>The following are the Programmer-Defined Character Classe.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+SLNO		Programmer-Defined			Description
+		       Character Class Name	
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.			[ABC]					Searches for either 'A' or 'B' or 'C Only
+	
+2.			[^ABC]					Searches for all except 'A' or 'B' or 'C 
+
+3.			[A-Z]					Searches for Upper Case Alphabets Only
+
+4.			[^A-Z]					Searches for all except Upper Case Alphabets
+
+5.			[a-z]						Searches for Lower Case Alphabets Only
+
+6.			[^a-z]					Searches for  all except Lower Case Alphabets
+
+7.			[A-Za-z]					Searches for Upper and Lower Case Alphabets Only
+
+8.			[^A-Za-z]					Searches for all except Upper and Lower Case Alphabets
+
+9.			[0-9]						Searches for  Digits Only
+
+10.			[^0-9]					Searches for all except Digits
+
+11.			[A-Za-z0-9]				Searches for Alpha-Numerics (Alphabets+Digits) only
+
+12.			[^A-Za-z0-9]				Searches for Special Symbols except Alpha-Numerics (Alphabets+Digits)
+
+13.			[A-Z0-9]					Searches for Upper Case Alphabets and Digits only
+
+14.			[^A-Z0-9]					Searches for all except Upper Case Alphabets and Digits
+
+15.			[a-z0-9]					Searches for Lower Case Alphabets and Digits only
+
+16.			[^a-z0-9]					Searches for all except Lower Case Alphabets and Digits
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+

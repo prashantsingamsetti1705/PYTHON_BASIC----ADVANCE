@@ -1,0 +1,41 @@
+				==================================================
+					Introduction to Network Programming in Python
+				==================================================
+=>The Purpose of Networks is that "To Share the Data between Multiple Devices which are located either in Same 
+    Network or in Different Network across the Universe".
+------------------------------------
+Definition of Network:
+----------------------------------
+=>A Network is a Collection of Inter-connected Autonomous Computeres Connected with Server.
+------------------------------------
+=>To Share the Data between Multiple Devices , the multiple devices must be in network.
+=>In Networking, we can develop Two Types of Programs. They are
+
+				1. Server Side Program
+				2. Client Side Program
+---------------------------------------------------
+Definition of Server Side Program:
+---------------------------------------------------
+A Server Side Program is one which is used for Receving the Request from Client Side Program, Process the Request and Gives Response Back to Client Side Program.
+------------------------------------------------------
+Definition of Client Side Program:
+---------------------------------------------------
+A Client Side Program is one which makes the Request to the Server Side Program and Obtains the Result from Server Side Program.
+---------------------------------------------------
+Definition of DNS ( Domain Naming Service)
+---------------------------------------------------
+=>A DNS is a Name of the Physical Machine where the Server Side Program Resides.
+=>The Default DNS of Every Computer is "localhost".
+---------------------------------------------------
+Definition of IP Address ( Internet Protocol Address)
+---------------------------------------------------
+=>IP Address is a Four Digit Numerical Address of  Physical Machine where the Server Side Program Resides.
+=> The Default IPAddress of Every Computer is 127.0.0.1 (Loop Back Address).
+---------------------------------------------------
+Definition of Port Number
+---------------------------------------------------
+=>A Port Number is one of the Logical Numerical ID where Server Side Program is Running.
+---------------------------------------------------
+=>Hence Any Client Side Program want to communicate with Server Side Program then Client Side Program Must Establish the CONNECTION from Server Side Program by passing (DNS/IP Adrress, portno).
+===================================x================================================
+

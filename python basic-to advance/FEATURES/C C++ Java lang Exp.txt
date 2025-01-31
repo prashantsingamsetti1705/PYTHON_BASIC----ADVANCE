@@ -1,0 +1,60 @@
+
+=================================================================================
+	C, C ++ Prog Lang execution Env-----PlatForm Dependent  Languages
+=================================================================================
+Data Types--allocating Memory space in Main memory for Storing INPUT Values
+
+						Memory Space (in Bytes)
+		Data Types		      MS-DOS    UNIX
+		-----------------            ------------------------------------
+			int				2		  4
+			float				4		  8
+			double			8		16
+			char				1		1
+Hence C, C ++ Prog and their data types takes different memory spaces on Different OSes and these Lang are called PlatForm Dependent  Languages					
+=================================================================================
+	Java    Prog Lang execution Env----------PlatForm Independent Languages
+=================================================================================
+=>Data Types--allocating Memory space in Main memory for Storing INPUT Values
+						Memory Space (in Bytes)
+		Data Types		      MS-DOS    UNIX
+		-----------------            ------------------------------------
+			byte				1			1
+			short			2			2
+			int				4			4
+			long				8			8
+			float				4 with 7DP	4 with 7DP
+			double			8 with 15 DP   8 with 15 DP
+			char				2			2
+			boolean			0			0
+=>The above Data Types in Java are called Pre-Defiled OR Primtive Data Types whose memory space is SAME on all 
+     TYPES of OSES and Java is One of the PlatForm Independent Language. 
+=>The limitation of Java are called Pre-Defiled OR Primtive Data Types are
+
+			1. Memory space Restrictions
+			2. Pre-Defiled OR Primtive Data Types allows us to store Single Value (Atomic value) and not able to 
+			    store Grouped Values. ( Called NON-Object Approach)
+
+=>In Java Programming we have An OBJECT Approach----Classes and Object
+
+			Java Objects stores multiple Values and runs on all Types of OSES
+	But:
+			1. Java objects are Size Restricted (Static Nature--don't have dynamic nature) stores 
+				limited number of values and unable to store Dynamic number of un-Limited Values.
+
+=================================================================================
+	Python   Prog Lang execution Env----PlatForm Independent Languages---
+=================================================================================
+Full Stack Python & Python 9:00 AM by Mr.K.V.Rao
+Day-1 https://youtu.be/sAErLdY9ICo
+Day-2 https://youtu.be/Vb_jwbACJIw
+Day-3 https://youtu.be/ElOBD_HsySE
+Day-4 https://youtu.be/wA2y6gJpedA
+Day-5 https://youtu.be/uk7xX12PFyE
+Day-6 https://youtu.be/_OQIGfks1Fc
+Day-7 https://youtu.be/n1Mi7ghF7vk
+Day-8 https://youtu.be/0FCy00E8QtM
+Day-9 https://youtu.be/AC9vLAEsYbw
+
+=================================================================================
+

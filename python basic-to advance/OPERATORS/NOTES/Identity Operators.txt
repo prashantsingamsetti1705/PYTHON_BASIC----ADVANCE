@@ -1,0 +1,369 @@
+			========================================================
+				Identity Operators---Applicable to Python Command only
+			========================================================
+=>The purpose of Identity Operators is that "To Check OR Compare the Memory Address OR References of Objects".
+=>In Python Programming, we have 2 Types of Identity Operators. They are
+
+				1. is
+				2. is not
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+1. is
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Syntax:   Object1 is Object2
+=>Here "is" Operator Returns True Provided the Memory Addresses OR References of Object1 and Object2 are SAME.
+=>Here "is" Operator Returns False Provided the Memory Addresses OR References of Object1 and Object2 are 
+    DIFFERENT.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+2. is not
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Syntax:   Object1 is not Object2
+=>Here "is not " Operator Returns True Provided the Memory Addresses OR References of Object1 and Object2 are DIFFERENT.
+=>Here "is not " Operator Returns False Provided the Memory Addresses OR References of Object1 and Object2 are SAME
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+NOTE1: In the case of DEEP COPY, The "is" Operator on Multiple object returns True
+NOTE2: In the case of DEEP COPY, The "is not" Operator on Multiple object returns False
+NOTE3: In the case of SHALLOW COPY, The "is" Operator on Multiple object returns False
+NOTE4: In the case of SHALLOW COPY, The "is not" Operator on Multiple object returns True
+Examples
+--------------
+>>> lst1=[10,20,30]
+>>> lst2=lst1  # Deep Copy
+>>> lst1 is lst2
+True
+>>> lst1 is not lst2
+False
+>>>
+>>> lst3=lst1.copy() # Shallow Copy
+>>> id(lst1)
+1976730521984
+>>> id(lst3)
+1976733436096
+>>> lst1 is lst3
+False
+>>> lst1 is not lst3
+True
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> a=None
+>>> print(a,type(a),id(a))
+None <class 'NoneType'> 140713656242768
+>>> b=None
+>>> print(b,type(b),id(b))
+None <class 'NoneType'> 140713656242768
+>>> a is b
+True
+>>> a is not b
+False
+------------------------------------------------------------
+>>> d1={10:"Mango",20:"Apples",30:"Kiwi"}
+>>> d2={10:"Mango",20:"Apples",30:"Kiwi"}
+>>> print(d1,type(d1),id(d1))
+{10: 'Mango', 20: 'Apples', 30: 'Kiwi'} <class 'dict'> 1976733435072
+>>> print(d2,type(d2),id(d2))
+{10: 'Mango', 20: 'Apples', 30: 'Kiwi'} <class 'dict'> 1976733496896
+>>> d1 is d2
+False
+>>> d1 is not d2
+True
+----------------------------------------------------------------
+>>> s1={10,20,30,40}
+>>> s2={10,20,30,40}
+>>> print(s1,type(s1),id(s1))
+{40, 10, 20, 30} <class 'set'> 1976734170720
+>>> print(s2,type(s2),id(s2))
+{40, 10, 20, 30} <class 'set'> 1976734170496
+>>> s1 is s2
+False
+>>> s1 is not s2
+True
+>>> fs1=frozenset({10,20,30,40})
+>>> fs2=frozenset({10,20,30,40})
+>>> print(fs1,type(fs1),id(fs1))
+frozenset({40, 10, 20, 30}) <class 'frozenset'> 1976733481920
+>>> print(fs2,type(fs2),id(fs2))
+frozenset({40, 10, 20, 30}) <class 'frozenset'> 1976733481696
+>>> fs1 is fs2
+False
+>>> fs1 is not fs2
+True
+---------------------------------------------------------------------
+>>> lst1=[10,20,70,80]
+>>> lst2=[10,20,70,80]
+>>> print(lst1,type(lst1),id(lst1))
+[10, 20, 70, 80] <class 'list'> 1976734996480
+>>> print(lst2,type(lst2),id(lst2))
+[10, 20, 70, 80] <class 'list'> 1976735001216
+>>> lst1 is lst2
+False
+>>> lst1 is not lst2
+True
+>>> t1=(10,20,70,80)
+>>> t2=(10,20,70,80)
+>>> print(t1,type(t1),id(t1))
+(10, 20, 70, 80) <class 'tuple'> 1976733650272
+>>> print(t2,type(t2),id(t2))
+(10, 20, 70, 80) <class 'tuple'> 1976733651072
+>>> t1 is t2
+False
+>>> t1 is not t2
+True
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> r1=range(10,20,2)
+>>> r2=range(10,20,2)
+>>> print(r1,type(r1),id(r1))
+range(10, 20, 2) <class 'range'> 1976733410352
+>>> print(r2,type(r2),id(r2))
+range(10, 20, 2) <class 'range'> 1976735061968
+>>> r1 is r2
+False
+>>> r1 is not r2
+True
+>>> ba1=bytearray([10,20,30,40])
+>>> ba2=bytearray([10,20,30,40])
+>>> print(ba1,type(ba1),id(ba1))
+bytearray(b'\n\x14\x1e(') <class 'bytearray'> 1976733625840
+>>> print(ba2,type(ba2),id(ba2))
+bytearray(b'\n\x14\x1e(') <class 'bytearray'> 1976733599024
+>>> ba1 is ba2
+False
+>>> ba1 is not ba2
+True
+>>> b1=bytes([10,20,30,40])
+>>> b2=bytes([10,20,30,40])
+>>> print(b1,type(b1),id(b1))
+b'\n\x14\x1e(' <class 'bytes'> 1976735061728
+>>> print(b2,type(b2),id(b2))
+b'\n\x14\x1e(' <class 'bytes'> 1976735061536
+>>> b1 is b2
+False
+>>> b1 is not b2
+True
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+MOST IMP: If Two Str Object Contains Same Case, Same Meaning and Same Order then "is" Operator Return True 
+ -------------  Otherwise False
+
+>>> s1="PYTHON"
+>>> s2="PYTHON"
+>>> print(s1,type(s1),id(s1))
+PYTHON <class 'str'> 1976735061824
+>>> print(s2,type(s2),id(s2))
+PYTHON <class 'str'> 1976735061824
+>>> s1 is s2
+True
+>>> s1 is not s2
+False
+-----------------------
+>>> s1="HYD"
+>>> s2="HDY"
+>>> print(s1,type(s1),id(s1))
+HYD <class 'str'> 1976735061632
+>>> print(s2,type(s2),id(s2))
+HDY <class 'str'> 1976735061680
+>>> s1 is s2
+False
+>>> s1 is not s2
+True
+>>> s1="PYTHON"
+>>> s2="PYTHOn"
+>>> print(s1,type(s1),id(s1))
+PYTHON <class 'str'> 1976735061824
+>>> print(s2,type(s2),id(s2))
+PYTHOn <class 'str'> 1976735061584
+>>> s1 is s2
+False
+>>> s1 is not s2
+True
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> a=2+3j
+>>> b=2+3j
+>>> print(a,type(a),id(a))
+(2+3j) <class 'complex'> 1976733547792
+>>> print(b,type(b),id(b))
+(2+3j) <class 'complex'> 1976733533008
+>>> a is b
+False
+>>> a is not b
+True
+-----------------------
+>>> a=True
+>>> b=True
+>>> print(a,type(a),id(a))
+True <class 'bool'> 140713656242704
+>>> print(b,type(b),id(b))
+True <class 'bool'> 140713656242704
+>>> a is b
+True
+>>> a is not b
+False
+---------------------------
+>>> a=1.2
+>>> b=1.2
+>>> print(a,type(a),id(a))
+1.2 <class 'float'> 1976729906352
+>>> print(b,type(b),id(b))
+1.2 <class 'float'> 1976733532912
+>>> a is b
+False
+>>> a is not b
+True
+-------------------------------------
+MOST IMP: for int data--->0 to 256 Values related objects Contains Same Address
+-------------------------------------
+>>> a=300
+>>> b=300
+>>> print(a,type(a),id(a))
+300 <class 'int'> 1976733547792
+>>> print(b,type(b),id(b))
+300 <class 'int'> 1976733547760
+>>> a is b
+False
+>>> a is not b
+True
+>>> a=10
+>>> b=10
+>>> print(a,type(a),id(a))
+10 <class 'int'> 140713657043672
+>>> print(b,type(b),id(b))
+10 <class 'int'> 140713657043672
+>>> a=0
+>>> b=0
+>>> print(a,type(a),id(a))
+0 <class 'int'> 140713657043352
+>>> print(b,type(b),id(b))
+0 <class 'int'> 140713657043352
+>>> a is b
+True
+>>> a is not b
+False
+>>> a=255
+>>> b=255
+>>> print(a,type(a),id(a))
+255 <class 'int'> 140713657051512
+>>> print(b,type(b),id(b))
+255 <class 'int'> 140713657051512
+>>> a is b
+True
+>>> a is not b
+False
+>>> a=256
+>>> b=256
+>>> print(a,type(a),id(a))
+256 <class 'int'> 140713657051544
+>>> print(b,type(b),id(b))
+256 <class 'int'> 140713657051544
+>>> a is b
+True
+>>> a is not b
+False
+>>> a=257
+>>> b=257
+>>> print(a,type(a),id(a))
+257 <class 'int'> 1976733547792
+>>> print(b,type(b),id(b))
+257 <class 'int'> 1976733547856
+>>> a is b
+False
+>>> a is not b
+True
+-----------------------------------------------------------------------------------
+MOST IMP: for int data---> -1 to -5 Values related objects Contains Same Address
+>>> a=-1
+>>> b=-1
+>>> print(a,type(a),id(a))
+-1 <class 'int'> 140713657043320
+>>> print(b,type(b),id(b))
+-1 <class 'int'> 140713657043320
+>>> a is b
+True
+>>> a is not b
+False
+>>> a=-5
+>>> b=-5
+>>> print(a,type(a),id(a))
+-5 <class 'int'> 140713657043192
+>>> print(b,type(b),id(b))
+-5 <class 'int'> 140713657043192
+>>> a is b
+True
+>>> a is not b
+False
+>>> a=-6
+>>> b=-6
+>>> print(a,type(a),id(a))
+-6 <class 'int'> 1976733547856
+>>> print(b,type(b),id(b))
+-6 <class 'int'> 1976733547792
+>>> a is b
+False
+>>> a is not b
+True
+--------------------------------------------------------------------------------------------------------------------------------
+MOST MOST IMP: When we use Fundamental  Data Types related Same Values in Multiline assignment then those 
+                               objects contains Same Address.
+--------------------------------------------------------------------------------------------------------------------------------
+>>> a,b=300,300
+>>> print(a,type(a),id(a))
+300 <class 'int'> 1976733547760
+>>> print(b,type(b),id(b))
+300 <class 'int'> 1976733547760
+>>> a is b
+True
+>>> a is not b
+False
+------------------------------
+>>> a,b=-10,-10
+>>> print(a,type(a),id(a))
+-10 <class 'int'> 1976733532880
+>>> print(b,type(b),id(b))
+-10 <class 'int'> 1976733532880
+>>> a is b
+True
+>>> a is not b
+False
+-----------------------------------
+>>> a,b=1.2,1.2
+>>> print(a,type(a),id(a))
+1.2 <class 'float'> 1976729906352
+>>> print(b,type(b),id(b))
+1.2 <class 'float'> 1976729906352
+>>> a is b
+True
+>>> a is not b
+False
+-----------------------------------
+>>> a,b=2+3j,2+3j
+>>> print(a,type(a),id(a))
+(2+3j) <class 'complex'> 1976733532848
+>>> print(b,type(b),id(b))
+(2+3j) <class 'complex'> 1976733532848
+>>> a is b
+True
+>>> a is not b
+False
+---------------------------------------------------------
+MOST MOST IMP: When we use Sequence,List,Set and Dict Data Types related Same Values in Multiline assignment 
+                               then those objects contains Different Address.
+----------------------------------------------------------------------------------
+>>> lst1,lst2=[10,20,30],[10,20,30]
+>>> print(lst1,type(lst1),id(lst1))
+[10, 20, 30] <class 'list'> 1976730521984
+>>> print(lst2,type(lst2),id(lst2))
+[10, 20, 30] <class 'list'> 1976733667584
+>>> lst1 is lst2
+False
+>>> lst1 is not lst2
+True
+>>> d1,d2={10:"Mango",20:"Kiwi"},{10:"Mango",20:"Kiwi"}
+>>> print(d1,type(d1),id(d1))
+{10: 'Mango', 20: 'Kiwi'} <class 'dict'> 1976735105920
+>>> print(d2,type(d2),id(d2))
+{10: 'Mango', 20: 'Kiwi'} <class 'dict'> 1976735106432
+>>> d1 is d2
+False
+>>> d1 is not  d2
+True
+>>>
+--------------------------------------------------------------------------------------------------------------------------------

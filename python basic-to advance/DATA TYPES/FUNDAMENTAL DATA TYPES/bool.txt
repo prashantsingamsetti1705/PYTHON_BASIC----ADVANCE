@@ -1,0 +1,40 @@
+			==========================================================
+							bool
+			==========================================================
+=>'bool' is one of the Pre-Defined Class and treated as Fundamental Data Type.
+=>The purpose of bool data type is that "To Store True and False Values.".
+=>The True and False are the Keywords and they are treated as Values for bool data type.
+=>Internally, the True treated by PVM as 1 and False is Treated as 0
+=>On bool values, we can Perform Boolean Arithmetic Operations
+---------------------------------------------
+Examples
+---------------------------------------------
+>>> False=23---------------SyntaxError: cannot assign to False
+>>> True=1.2---------------- SyntaxError: cannot assign to True
+---------------------------------------------
+>>> a=True
+>>> print(a,type(a))---------------True <class 'bool'>
+>>> b=False
+>>> print(b,type(b))--------------False <class 'bool'>
+-------------------------------------------
+>>>a=true-----------------------NameError: name 'true' is not defined. Did you mean: 'True'?
+>>>b=false---------------------NameError: name 'false' is not defined. Did you mean: 'False'?
+	here we are true (small t) and false (small f) and they are Valid Bool Values in Python
+------------------------------------------
+>>> a=True
+>>> b=False
+>>> c=a+b
+>>> print(c,type(c))----------------1 <class 'int'>
+>>> print(False+False)-----------0
+>>> print(False-False)------------0
+>>> print(False-True)---------------1
+---------------------------------------
+>>> print(2*True-False)--------------2
+>>> print(True-0b1010)----------------9
+>>> print(0xF-True)--------------------14
+--------------------------------------------------
+>>> print(False/True)-----------------0.0
+>>> print(True/True)-------------------1.0
+>>> print(False/False)----------------ZeroDivisionError: division by zero
+>>> print(True/False)-----------------ZeroDivisionError: division by zero
+================================================================================

@@ -1,0 +1,162 @@
+			===================================================
+						Membership Operators
+			===================================================
+=>The purpose of Membership Operators is that "To check the existence of a Value in Iterable Object".
+=>Here Iterable Object is one, which contains More than Value 
+			Examples: Sequence Types ( str, bytes, bytearray, range)
+					   List Types (list,tuple)
+					   Set Type (set,frozenset)
+					   Dict Type (dict)
+=>Here Non-Iterable Object is one, which contains Only One Value.
+			Examples: Fundamental Data Types (int, float,bool,complex)
+					  NoneType Data Type ( NoneType)
+=>In Python Programming, we have 2 Types of Membership Operators. They are
+
+					1. in
+					2. not in
+----------------------------------------------------------------------------------------------------------------------------------------
+1. in
+----------------------------------------------------------------------------------------------------------------------------------------
+Syntax:     Value in Iterable-Object
+-----------
+=>Here 'in' Operator Returns True Provided Value Present in Iterable-Object.
+=>Here ' in' Operator Returns False Provided Value not Present in Iterable-Object.
+----------------------------------------------------------------------------------------------------------------------------------------
+2. not in
+----------------------------------------------------------------------------------------------------------------------------------------
+Syntax:     Value not in Iterable-Object
+-----------
+=>Here "not in" Operator Returns True Provided Value Not Present in Iterable-Object
+=>Here "not in" Operator Returns False Provided Value Present in Iterable-Object
+----------------------------------------------------------------------------------------------------------------------------------------
+Examples
+==========================================================================================
+>>> s="PYTHON"
+>>> print(s)----------------PYTHON
+>>> "P" in s---------------True
+>>> "K" in s---------------False
+>>> "P" not in s----------False
+>>> "K" not in s----------True
+-------------------------
+>>> s="PYTHON"
+>>> print(s)
+PYTHON
+>>> "PYTH" in s
+True
+>>> "KVR" in s
+False
+>>> "KVR" not in s
+True
+>>> "PTO" in s
+False
+>>> "HON" in s
+True
+>>> "PTO" not in s
+True
+>>> "NOH" in s
+False
+>>> "NOH" not in s
+True
+>>> "NOH"[::-1] not in s
+False
+>>> "NOH"[::-1] in s
+True
+>>> "PTO" in s[::2]
+True
+----------------------------------------------------
+>>> lst=[10,"Rossum",34.56,2+3j]
+>>> print(lst)
+[10, 'Rossum', 34.56, (2+3j)]
+>>> 10 in lst
+True
+>>> 100 in lst
+False
+>>> 100 not in lst
+True
+>>> "Ros" in lst
+False
+>>> "Ros" in lst[1]
+True
+>>> "Rossum" in lst[1][::-1]
+False
+>>> "Rossum" not in lst[1][::-1]
+True
+>>> lst=[10,"Rossum",34.56,2+3j]
+>>> print(lst)
+[10, 'Rossum', 34.56, (2+3j)]
+>>> 2+3j in lst[-1]------------------------------TypeError: argument of type 'complex' is not iterable
+----------------------------------------------
+>>> lst=[10,"Rossum",34.56,2+3j]
+>>> print(lst)
+[10, 'Rossum', 34.56, (2+3j)]
+>>> 2+3j in lst
+True
+>>> 2+3j not in lst
+False
+>>> 2.0 not in lst[-1].real---------------------TypeError: argument of type 'float' is not iterable
+--------------------------------------------------------
+>>> d1={10:1.2,20:2.3,30:3.4,40:4.7}
+>>> print(d1)
+{10: 1.2, 20: 2.3, 30: 3.4, 40: 4.7}
+>>> 1.2 in d1
+False
+>>> 20 in d1
+True
+>>> 30 not in d1
+False
+>>> (10,1.2) in d1
+False
+>>> {10:1.2} in d1-------------------TypeError: unhashable type: 'dict'
+---------------------------------------------
+>>> d1={10:1.2,20:2.3,30:3.4,40:4.7}
+>>> print(d1)
+{10: 1.2, 20: 2.3, 30: 3.4, 40: 4.7}
+>>> 1.2 in d1.values()
+True
+>>> 10 not in d1.keys()
+False
+>>> (10,1.2) in d1.items()
+True
+>>> 1.2 in d1[10]-----------------------------TypeError: argument of type 'float' is not iterable
+>>> d1={10:1.2,20:2.3,30:3.4,40:4.7}
+>>> print(d1)
+{10: 1.2, 20: 2.3, 30: 3.4, 40: 4.7}
+>>> 1.2 in d1.get(10)-------------------------------TypeError: argument of type 'float' is not iterable
+------------------------------------------
+>>> s="1234"
+>>> "12" in s
+True
+>>> 123 not in s--------------------------------TypeError: 'in <string>' requires string as left operand, not int
+------------------------------------------------------
+>>> s="1234"
+>>> 123 in int(s)-------------------------------TypeError: argument of type 'int' is not iterable
+-----------------------------------------------------------
+>>> lst=[10,20,30]
+>>> lst[0] in lst[::-1]
+True
+-----------------------------------------------
+MOST IMP
+-------------------
+>>> lst=[10,20,30]
+>>> lst in lst-----------------------False
+Clarification
+--------------------------
+>>> lst1=[10,20,30]
+>>> lst2=[10,20,30]
+>>> print(lst1,id(lst1))
+[10, 20, 30] 2411790209408
+>>> print(lst2,id(lst2))
+[10, 20, 30] 2411792992448
+----------------------------------------------------------------------------------------
+>>> s="PYTHON"
+>>> s in s
+True
+Clarification
+--------------------------
+>>> s1="PYTHON"
+>>> s2="PYTHON"
+>>> print(s1,id(s1))
+PYTHON 2411793195360
+>>> print(s2,id(s2))
+PYTHON 2411793195360
+=============================================================================

@@ -1,0 +1,113 @@
+			=======================================================
+				Number of Approaches to Develop Python Programs
+			=======================================================
+---------------------------------------
+Definition of Program
+---------------------------------------
+=>Set of Optimized Instructions is Known as Program
+=>The Optimized Instructions are nothing but Taking Less Time Complexity ( Less Execution Time) and Less Space 
+    Complexity (Less Memory Space) by the Computer.
+=>The purpose of Writing the Program is that "To Solve any Real Time Problem / Task".  
+=>To Develop any Real Time Project, we must write Group of Program and each Program meant for Performing Some 
+    Task.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+=>In Python Programming, we have TWO approaches to Develop the Programs. They are
+
+			1. Interactive Approach
+			2. Batch Mode Approach
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Interactive Approach
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+=>In Interactive Approach, as Python Programmer, we Write One Statement at a time and we get One Output at a time.
+=>Interactive Approach is useful to test One Instruction at a time bfore placing in Program.
+=>Interactive Approach is Not recommended to Solve Big Problems bcoz It won't provide the Facility of Saving the 
+    Code and Not able to provide the Code Re-Usability as part of the Project.
+----------------------------------------------
+Python Command Statements
+---------------------------------------------
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print(a)---------------------10
+>>> print(b)---------------------20
+>>> print(c)---------------------30
+------------------------------------------
+Examples Softwares:      Python Command
+					  Python IDLE Shell
+=>The above Two Softwares are comming along with Python Software Installation Only.
+=>In Industry, Interactive Approach  not Recommended to Solve Big Problems and always Recommended  to Use Batch  Mode Approach.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Batch Mode Approach
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+=>In Batch Mode Approach, As Python Programmer we define Group of Optimized Instructions under single unit and It Saved on some file name with an extension .py (FileName.py). So that we can re-use such type of code in other part of project and Refer such in the near Future.
+=>In Real Time, to solve any Big Problem, we use alwasy Batch Mode Approach.
+--------------------------------
+Examples Softwares:			Python IDLE Shell ( comming along with Python Software Installation Only)
+--------------------------------
+=>We don't use Python IDLE Shell Regularly bcoz PYTHON IDLE Shell is Not Providing Much Comfotable Facilities to the Python Programmers such Syntax Highlighting, Bellon Help...etc	
+=>Hence As a Real Time Python Programmer we use  THIRD PARTY IDES which are given Bellow.
+		
+						1. Pycharm
+						2. Anaconda Jupiter Note Book
+						3. Anaconda  Spider
+						4. VS CODE
+						5. Google Colab
+						6. Sub Lime Text....etc
+=>The THIRD PARTY IDES Need to Install Explicitly by going to their Official Sources.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+NOTE:
+-------------
+We can run Python Program Explicitly from Windows Command Prompt
+
+Step-1:  Goto the Folder where Python Program Saved
+		Examples:    E:\KVR-PYTHON-9AM\BATCH MODE
+
+Step-2: To run the Program from Window  Command, we use a Tool Call "python" 
+		( Present in C:\Users\KVR\AppData\Local\Programs\Python\Python312 )
+		
+E:\KVR-PYTHON-9AM\BATCH MODE>python SumEx1.py
+3
+4
+7
+
+E:\KVR-PYTHON-9AM\BATCH MODE>python SumEx2.py
+--------------------------------------------------
+Val of a= 10
+Val of b= 20
+Sum= 30
+**************************************************
+
+E:\KVR-PYTHON-9AM\BATCH MODE>python SumEx3.py
+Enter First Value:20
+Enter Second Value:30
+--------------------------------
+Val of a=20.0
+val of b=30.0
+sum(20.0,30.0)=50.0
+--------------------------------
+
+				OR
+E:\KVR-PYTHON-9AM\BATCH MODE>py SumEx1.py
+3
+4
+7
+
+E:\KVR-PYTHON-9AM\BATCH MODE>py SumEx2.py
+--------------------------------------------------
+Val of a= 10
+Val of b= 20
+Sum= 30
+**************************************************
+
+E:\KVR-PYTHON-9AM\BATCH MODE>py SumEx3.py
+Enter First Value:5
+Enter Second Value:6.7
+--------------------------------
+Val of a=5.0
+val of b=6.7
+sum(5.0,6.7)=11.7
+--------------------------------
+
+Here "python" and "py" are two Tools Used for running the Python Program from Windows Command Prompt
+======================================x=====================================================
+

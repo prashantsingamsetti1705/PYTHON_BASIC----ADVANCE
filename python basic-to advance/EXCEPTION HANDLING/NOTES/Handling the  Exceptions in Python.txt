@@ -1,0 +1,35 @@
+			=====================================================
+				Handling the  Exceptions in Python
+			=====================================================
+=>Handling the  Exceptions in Python is nothing but converting Technical Error Messages into User-Friendly Error Message.
+=>To do this Process, as a Part of exception handling concept, we have 5 Key words. They are
+
+			1. try
+			2. except
+			3. else
+			4. finally
+			5. raise
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax for Handling the Exceptions in Python
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+			try:
+			    Block of Statements
+			    generates exceptions
+			except  <exception-cls-name-1>:
+				Block of Statements
+				Generates User-Friendly Error Messages
+			except  <exception-cls-name-2>:
+				Block of Statements
+				Generates User-Friendly Error Messages
+			--------------------------------------------
+			--------------------------------------------
+			except  <exception-cls-name-n>:
+				Block of Statements
+				Generates User-Friendly Error Messages
+			else:
+				Block of Stmts
+				generates Results
+			finally:
+				Block of Stmts
+				executes Compulsorily
+-----------------------------------------------------------------------------------------------------------------------------------------------------------

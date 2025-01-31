@@ -1,0 +1,30 @@
+			=============================================================
+				Steps of Development of Server and Client Side Applications
+			=============================================================
+=>As Network Programming, we can develop Two Types of Applications. They are
+
+				1. Server Side Application
+				2. Client Side Applications
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Steps for Developing  Server Side Application
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1. import socket module and other Modules if Required
+2. Every Server Side Program must create an object of socket (called Server Socket)
+3. Every Server Side Program (server socket) must BIND with Certain DNS / IP Address and Portno.
+4. Every Server Side Program Must be CONFIGURED in such a way that to how many Clients the server side program 
+    can communicate.
+5. Every Server Side Program Must ACCEPT the client side Program Request( nothing getting Client Socket)
+6. Every Server Side Program Must READ Requested Data, Process and gives Response to Client Side Program.
+7. Every Server Side Program must  Repeat step-5 and step-6 Until Client Side Program Request(s) Completed.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Steps for Developing  Client Side Applications
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1.  import socket module and other Modules if Required
+2.  Every Client Side Program must create an object of socket (called Client Socket)
+3.  Every Client Side Program must get the CONNECTION from Server Side Program by passing (DNS/IPAddress, 
+     portno)
+4. Every Client Side Program must Send REQUEST to Server Side Program.
+5. Every Client Side Program must  Receive the Response from Server Side Program.
+6. Every Client Side Program must  Repeat Step-4 and Step-5 Provded If Client Side Program want make Multiple 
+    Requests.
+-------------------------------------------------------------------------------------------------------------------------------------------------

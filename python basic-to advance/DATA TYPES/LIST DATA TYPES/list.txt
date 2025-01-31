@@ -1,0 +1,112 @@
+			=====================================================
+							1. list
+			=====================================================
+Index
+---------------
+=>Purpose of list
+=>Notation of list
+=>Operations on list
+		Index
+		Slicing
+=>Memory Management of list
+=>Types of List objects
+		Empty List
+		Non-Empty List
+=>Pre-Defined functions in list
+=>Programming Examples
+=>Inner OR Nested Lists
+=>Pre-Defined functions in Inner list
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Properties of List
+=========================
+=>Here 'list' is one of the Pre-Defined Class and treated as List Category Data type
+=>The purpose of list data type is that "To store multiple values either of Same Type OR Different Type OR Both Types 
+     with Unique OR Duplicates in single Object".
+=>To Store the Values in list object, The values must be written OR enclosed within Square Brackets [ ].
+=>Syntax:    varname=[Val1,Val2,.....,Val-n]
+=>An Object of list maintains Insertion Order(Nothing But whatever the Order we organize the data, In the same order 
+    the Data will be displayed).
+=>On the Object list, we can Perform Both Indexing and Slicing Operations.
+=>An object of List belongs to MUTABLE bcoz list object permits to perform Item Assignment either with Index Based 
+    or Slice Based Modification.
+=>With List, we can create Two types of objects. They are
+				1. Empty List
+				2. Non-Empty list
+-----------------------------
+1. Empty list
+-----------------------------
+=>An empty list is one, which does not contain any elements and whose length is 0
+=>Syntax:    listobj=[]
+			OR
+		     listobj=list()
+-----------------------------
+2. Non-Empty list
+-----------------------------
+=>A Non-Empty list is one which contains Elements and whose length is > 0.
+=>Syntax:   listobj=[Val1,Val2,.....,Val-n]
+				OR
+		   listobj=list(IterableObject) # Here Iterable object can str,bytes,bytearray,range,list,tuple,set,frozenset,dict
+				OR
+		   listobj=list([non-Iterable-object])# Here non-Iterable-object can be int,float,bool,complex,NoneType.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> lst=[10,20,30,10,40,50,10,20]
+>>> print(lst,type(lst))--------------------------[10, 20, 30, 10, 40, 50, 10, 20] <class 'list'>
+>>> lst=[10,"RS",34.56,2+3j,"Python",True]
+>>> print(lst,type(lst))-------------------------[10, 'RS', 34.56, (2+3j), 'Python', True] <class 'list'>
+-----------------------------------
+>>> lst=[10,"RS",34.56,2+3j,"Python",True]
+>>> print(lst,type(lst))---------------[10, 'RS', 34.56, (2+3j), 'Python', True] <class 'list'>
+>>> lst[0]-----------------------------10
+>>> lst[-1]----------------------------True
+>>> lst[0:3]---------------------------[10, 'RS', 34.56]
+>>> lst[::-1]--------------------------[True, 'Python', (2+3j), 34.56, 'RS', 10]
+---------------------------------------
+>>> lst=[10,"RS",34.56,2+3j,"Python",True]
+>>> print(lst,type(lst),id(lst))----------------------[10, 'RS', 34.56, (2+3j), 'Python', True] <class 'list'> 2589282567680
+>>> lst[0]=100 # Index Based Modification
+>>> print(lst,type(lst),id(lst))------------[100, 'RS', 34.56, (2+3j), 'Python', True] <class 'list'> 2589282567680
+>>> lst[1:3]=["Guido",66.66]  # Slicing Based Modification
+>>> print(lst,type(lst),id(lst))--------------[100, 'Guido', 66.66, (2+3j), 'Python', True] <class 'list'> 2589282567680
+--------------------------------------------------
+>>> lst=[]
+>>> print(lst,type(lst))--------------[] <class 'list'>
+>>> len(lst)-----------------------------0
+	OR
+>>> lst=list()
+>>> print(lst,type(lst))-------------[] <class 'list'>
+>>> len(lst)---------------------------0
+------------------------------------------------------
+>>> lst=[10,"RS",34.56,2+3j,"Python",True]
+>>> print(lst,type(lst),id(lst))----------------[10, 'RS', 34.56, (2+3j), 'Python', True] <class 'list'> 2589282815552
+>>> len(lst)-----------------------------6
+--------------------------------------------------------------
+>>> s="PYTHON"
+>>> print(s,type(s))----------------PYTHON <class 'str'>
+>>> lst=list(s)
+>>> print(lst,type(lst),id(lst))---------['P', 'Y', 'T', 'H', 'O', 'N'] <class 'list'> 2589282629568
+------------------------------
+>>> a=10
+>>> print(a,type(a))--------------10 <class 'int'>
+>>> lst=list(a)---------------------TypeError: 'int' object is not iterable
+-----------OR-----------
+>>> a=10
+>>> print(a,type(a))--------------10 <class 'int'>
+>>> lst=list([a])
+>>> print(lst,type(lst))-----------[10] <class 'list'>
+>>> lst=list([10.23])
+>>> print(lst,type(lst))------------[10.23] <class 'list'>
+>>> s="PYTHON"
+>>> print(s,type(s))-------------PYTHON <class 'str'>
+>>> lst=list([s])
+>>> print(lst,type(lst))----------['PYTHON'] <class 'list'>
+-------------------------------
+>>> lst=[10,20,30,40,50]
+>>> print(lst,type(lst))------------------[10, 20, 30, 40, 50] <class 'list'>
+>>> b=bytes(lst)
+>>> print(b,type(b))---------------------b'\n\x14\x1e(2' <class 'bytes'>
+>>> lst1=list(b)
+>>> print(lst1,type(lst1))----------------[10, 20, 30, 40, 50] <class 'list'>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------

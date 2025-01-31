@@ -1,0 +1,19 @@
+			============================================================
+					Mutable and Immutable Objects
+			============================================================
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Mutable Object
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>A Mutable Object is one, whose content can be changed / Updated / Modified at Same Address.
+
+Examples: list,bytearray,set,dict.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Immutable Object
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+=>An Immutable Object is one, which Satisfies the following Properties
+		
+		1. Immutable Object Value Can't be chaged At Same Address 
+			(Value can be changed and changed Value placed in New Address)
+		2. Immutable Object does not allows us to perfrom Item Assigment.
+Examples:  int, float, bool,complex,str,bytes,range,tuple,set,frozenset,NoneType.
+------------------------------------------------------------------------------------------------------------------------------------------------------------

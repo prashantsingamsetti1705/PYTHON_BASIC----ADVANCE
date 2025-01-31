@@ -1,0 +1,14 @@
+		--------------------------------------------------------------------------------------------
+				Memory Management
+		--------------------------------------------------------------------------------------------
+Memory--------->To Store the Data
+				1) Main Memory (RAM)
+					-->All user Data entered into main Memory by default
+					-->Temprorary Data Storage / Volatile Memory
+					=>We process the Data and Results are ready and we display such results on the Moniter
+
+					
+				2) Secondary Memory ( Hard Disk )
+					=>To Store the Data Permanently
+							i) By using the Concept of FILES
+							ii) By Using the Concet of RDBMS Softwares--Oracle, MySQL, DB2, Post grey SQL...etc

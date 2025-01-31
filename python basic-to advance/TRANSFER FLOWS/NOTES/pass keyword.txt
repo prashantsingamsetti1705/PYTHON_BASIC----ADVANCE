@@ -1,0 +1,17 @@
+				============================================
+						3. pass
+				============================================
+=>pass is keyword
+=>The purpose of pass keyword is that "To instruct the Python Compiler and PVM in such way that Identation Block should not be executed".
+					OR
+=>pass keyword is used for By-passing OR Ingoring  the Identation Block
+					OR
+=>pass keyword is used for Skipping the Identation Block
+NOTE: wherever we come across Indentation Symbol and Don't want to write Indentation block then we must write pass otherwise we get IdentationError.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax:		if(Test Cond) : pass
+
+			while(Test Cond): pass
+
+			for Varname in Iterable-object : pass
+=====================================x=======================================================

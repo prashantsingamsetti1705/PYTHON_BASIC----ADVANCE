@@ -1,0 +1,53 @@
+			===========================================================
+						Inner OR Nested List
+			===========================================================
+=>The Process of Defining One List inside of another list is called Inner OR Nested List.
+=>Syntax: listobj=[val1,val2,......[val11,val12,....,val1n],...[val21,val22,......val2n],..val-n]
+=>here [val1,val2..............,val-n] Represents outer List and Outer list elements
+=>Here [val11,val12,....,val1n] Represents Inner List and Inner List Elements
+=>Here [val21,val22,......val2n] Represents Another Inner List and  another Inner List Elements
+=>On the Inner list elements we can perform Both Indexing and Slicing Operations.
+=>On the Inner list elements we can use all the pre-defined functions of list.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Examples
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+>>> lst=[10,"Kalash",[20,16,18],[70,76,65],"JNTU"]
+>>> print(lst,type(lst))------------------[10, 'Kalash', [20, 16, 18], [70, 76, 65], 'JNTU'] <class 'list'>
+>>> for val in lst:
+...		print(val,type(val),type(lst))
+...
+			10 <class 'int'> <class 'list'>
+			Kalash <class 'str'> <class 'list'>
+			[20, 16, 18] <class 'list'> <class 'list'>
+			[70, 76, 65] <class 'list'> <class 'list'>
+			JNTU <class 'str'> <class 'list'>
+>>> lst[2]---------------------------------------[20, 16, 18]
+>>> lst[2].append(15)
+>>> print(lst,type(lst))---------------------[10, 'Kalash', [20, 16, 18, 15], [70, 76, 65], 'JNTU'] <class 'list'>
+>>> lst[-2].insert(1,72)
+>>> print(lst,type(lst))--------------------[10, 'Kalash', [20, 16, 18, 15], [70, 72, 76, 65], 'JNTU'] <class 'list'>
+>>> lst[2].sort()
+>>> print(lst,type(lst))-------------------[10, 'Kalash', [15, 16, 18, 20], [70, 72, 76, 65], 'JNTU'] <class 'list'>
+>>> lst[-2].sort(reverse=True)
+>>> print(lst,type(lst))------------------[10, 'Kalash', [15, 16, 18, 20], [76, 72, 70, 65], 'JNTU'] <class 'list'>
+>>> del lst[-2][::2]
+>>> print(lst,type(lst))------------------[10, 'Kalash', [15, 16, 18, 20], [72, 65], 'JNTU'] <class 'list'>
+>>> del lst[-3][-3:-1]
+>>> print(lst,type(lst))-----------------[10, 'Kalash', [15, 20], [72, 65], 'JNTU'] <class 'list'>
+>>> lst[2].clear()
+>>> print(lst,type(lst))-----------------[10, 'Kalash', [], [72, 65], 'JNTU'] <class 'list'>
+>>> lst[2].append(10)
+>>> print(lst,type(lst))-------------[10, 'Kalash', [10], [72, 65], 'JNTU'] <class 'list'>
+>>> lst.insert(3,["Python","C","C++"])
+>>> print(lst,type(lst))---------------[10, 'Kalash', [10], ['Python', 'C', 'C++'], [72, 65], 'JNTU'] <class 'list'>
+>>> del lst[-2]
+>>> print(lst,type(lst))-------------[10, 'Kalash', [10], ['Python', 'C', 'C++'], 'JNTU'] <class 'list'>
+>>> print(lst,type(lst))------------[10, 'Kalash', [10], ['Python', 'C', 'C++'], 'JNTU'] <class 'list'>
+>>> lst[3]=["Go","Kotlin"]
+>>> print(lst,type(lst))------------[10, 'Kalash', [10], ['Go', 'Kotlin'], 'JNTU'] <class 'list'>
+>>> lst[-3]=[10,20,30,40]
+>>> print(lst,type(lst))----------[10, 'Kalash', [10, 20, 30, 40], ['Go', 'Kotlin'], 'JNTU'] <class 'list'>
+>>> lst[2][::2]=[100,300]
+>>> print(lst,type(lst))-----------[10, 'Kalash', [100, 20, 300, 40], ['Go', 'Kotlin'], 'JNTU'] <class 'list'>
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+

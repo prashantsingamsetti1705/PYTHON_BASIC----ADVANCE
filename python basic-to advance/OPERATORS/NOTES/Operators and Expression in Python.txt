@@ -1,0 +1,26 @@
+			==========================================================
+						Operators and Expression in Python
+			==========================================================
+=>An Operator is a Symbol, which is used to perform Certain Operation on Data OR Values OR Objects (Variables).
+=>If two OR More Variables Connected with an Operator then It is called Expression.
+=>In Otherwords, An Expression is a Collection of Variables Connected with an Operator.
+=>In Python Programming, we have 7 Types of Operators. They are
+
+			1. Arithmetic Operators
+			2. Assignment Operator
+			3. Relational Operators (Comparision Operators)
+			4. Logical Operators (Comparision Operators)
+			5. Bitwise Operators--MOST IMP
+			6. Membership Operators
+					a) in Operator
+					b) not in Operator
+			7. Identity Operators
+					a) is Operator
+					b) is not Operator
+------------------------------------------------------------------------------------------------------------------------------------------------
+NOTE1: Python Does not support Unary Operator Like ++ and -- (Pre and Post Incr / Decr)
+NOTE2: Python Does not Support Ternary Operator of C,C++, Java , C#.net Lang ( ? : )
+------------------------------------------------------------------------------------------------------------------------------------------------
+NOTE3: Python Have Its Own Ternary Operator called " if....else Operator ".
+NOTE4: Python Supports Short Hand Operators such as += , -= , /= , *=  ,  >>= , <<=.....etc
+------------------------------------------------------------------------------------------------------------------------------------------------

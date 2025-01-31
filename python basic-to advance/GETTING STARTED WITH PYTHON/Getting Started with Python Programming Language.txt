@@ -1,0 +1,61 @@
+			=======================================================
+					Getting Started with Python Programming Language
+			=======================================================
+Index
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+=>History Of Python
+=>Version of Python
+=>Down Loading and Installation Process of Python
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+						History Of Python
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+=>The Python Programming Language Concevied (Foundation Stone laid down )in the year 1980.
+=>The Python Programming Language  Implementation (Bring into Action) in the year 1989.
+=>The Python Programming Language Officially Released in the Year 1991 Feb.
+=>The Python Programming Language Developed by "GUIDO VAN ROSSUM" (Author of Python).
+=>The Python Programming Language Developed at Centrum Wiskunde Informatica (CWI) Institute in Nether Lands.
+=>The Python Programming Language Maintained and Managed by a Non-Commercial Organization 
+    Called PYTHON SOFTWARE FOUNDATION (PSF).
+=>The Official web site of   PYTHON SOFTWARE FOUNDATION (PSF) is www.python.org
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+						Version of Python--Most IMP
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+=>The Python Programming Language contains 3 Types of Versions. They are
+
+	I. Python 1.x , Here 1 Is called Major Version and x represents 0 1 2 3 4 5 6 7..etc called Minor Version.
+		
+		As on Today Python 1.x Outdated
+		Python 2.x does not support Backward Compatability with Python 1.x
+
+	II. Python 2.x, Here 2 Is called Major Version and x represents 0 1 2 3 4 5 6 7  called Minor Version.
+		
+		As on Today Python 2.x Outdated (Dt: 2020-01-01)
+		Python 3.x does not support Backward Compatability with Python 2.x
+	III. Python 3.x ----Current Version
+				Here 3 Is called Major Version 
+				and x represents 0 1 2 3 4 5 6 7 8 9 10 11 12  13  14 called Minor Version.
+						Here     3, 4,5,6,7 ----Are called older Version
+							      8,9,10 11 ----Are called older Version and Still Continued in Software Industry
+										(Secured)
+							      12---------Is Called Latest Version (Bug Fix)
+							      13---------Pre-Planned Version to release (2024-10-01)
+							      14--------Future Version
+--------------------------------------------------------------------------------------------------------------------------------------------------
+						Down Loading and Installation Process of Python
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Goto  www.python.org
+=>Choose downloads---->click on Python 3.12.5
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Full Stack Python & Python 9:00 AM by Mr.K.V.Rao
+Day-1 https://youtu.be/sAErLdY9ICo
+Day-2 https://youtu.be/Vb_jwbACJIw
+Day-3 https://youtu.be/ElOBD_HsySE
+Day-4 https://youtu.be/wA2y6gJpedA
+
+
+
+
+from Admin Shubham to all panelists:    9:24 AM
+*Python @ 9:00 AM | Mr.K.V.Rao [5th Aug] - Notes*
+https://drive.google.com/drive/folders/1a1phvkpviKoFthEhTvVHYCambxmG_lWJ?usp=sharin

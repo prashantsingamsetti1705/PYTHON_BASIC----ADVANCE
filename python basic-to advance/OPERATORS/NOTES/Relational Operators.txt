@@ -1,0 +1,145 @@
+		============================================================
+				3. Relational Operators(Comparision Operator)
+		============================================================
+=>The Purpose of Relational Operators is that "To Compare Two Values".
+=>If Two Values Connected with Relational Operator then It is called Relational Expression OR Simple Condition.
+=>The Result of Relational Expression is either True or False.
+=>In Python Programming, we have 6 Types of Relational Operators. They are given in the following table.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+SLNO		SYMBOL			MEANING			EXAMPLES  
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.			>				greater than			print(10>2)--------------True
+												print(10>20)------------False
+
+2.			<				less than				print(10<20)------------True
+												print(10<5)--------------False
+
+3.			==				comparision			print(10==10)----------True
+						    (double equal to)		print(10==20)----------False
+
+4.			!=				not equal to			print(10!=10)-----------False
+												print(10!=20)-----------True
+
+5.			>=				greater than			print(10>=20)-----------False
+							  or equal to			print(10>=5)-----------True
+
+6.			<=				less than				print(10<=5)-----------False
+							or equal to			print(10<=20)---------True
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+NOTE1:  a>b, a<b, a==b, a!=b, a>=b and a<=b are called Relational Expressions OR Test Cond
+NOTE: When we are comparing String Values by using Relational Operators Internally PVM Compares Their UNICODE 
+           Values ( Help: A,B.....Z starts from 65,66,....90 and a,b,.....z starts from 97,98,-----122)
+
+Examples
+---------------------
+>>> 10==10-----------------------True
+>>> "this"=="this"------------True
+>>> "this"=="thsi"--------------False
+>>> ord("i")--------------------105
+>>> ord("s")-------------------115
+>>>
+>>>
+>>> "THIS"=="this"-------------False
+>>> ord("T")-----------------------84
+>>> ord("t")------------------------116
+>>>
+>>>
+>>> "THIS">"this"---------------False
+>>> "THIS">"THIs"----------------False
+>>> "THiS">"THIS"---------------True
+>>> ord("i")-------------------------105
+>>> ord("I")-------------------------73
+>>> ord("Z")------------------------90
+>>> ord('a')--------------------------97
+>>> ord('z')-------------------------122
+>>> "Monkey">"Donkey"------True
+>>> "Monkey">"donkey"------False
+------------------------------------------
+NOTE:  Display All Upper Case Alphabets for UniCode Values(65-A.......90-Z)
+-----------
+>>> for i in range(65,91):
+...     print("{}--->{}".format(i,chr(i)))  # here chr() is used for Converting Numerical UniCOde Value into Eqv Char.
+...
+65--->A
+66--->B
+67--->C
+68--->D
+69--->E
+70--->F
+71--->G
+72--->H
+73--->I
+74--->J
+75--->K
+76--->L
+77--->M
+78--->N
+79--->O
+80--->P
+81--->Q
+82--->R
+83--->S
+84--->T
+85--->U
+86--->V
+87--->W
+88--->X
+89--->Y
+90--->Z
+------------------------------------------
+NOTE:  Display All lower Case Alphabets for UniCode Values(97-z.......122-z)
+-----------
+>>> for i in range(97,123):
+...	 print("{}--->{}".format(i,chr(i)))
+...
+97--->a
+98--->b
+99--->c
+100--->d
+101--->e
+102--->f
+103--->g
+104--->h
+105--->i
+106--->j
+107--->k
+108--->l
+109--->m
+110--->n
+111--->o
+112--->p
+113--->q
+114--->r
+115--->s
+116--->t
+117--->u
+118--->v
+119--->w
+120--->x
+121--->y
+122--->z
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Most IMP
+-----------------
+>>> "radar">="radra"----------False
+>>> ord("a")----------------------97
+>>> ord("r")---------------------114
+>>> "ACC">="acc"------------False
+>>> "wrong">="wrogn"---------True
+>>> "OYO">="OOY"-------------True
+>>> "OYO">="oOY"-------------False
+=========================================x================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+			===============================================================
+					Python Ternary Operator--Most Imp
+			===============================================================
+=>The Name of Ternary Operator in Python is "if..else" Operator.
+-------------------
+=>Syntax:			VariableName = Expr1  if Test Cond  else  Expr2
+-------------------
+=>Here 'if' and 'else' are the Keywords
+=>Here Test Condition Reepresents Relational OR Logical Expression and whose Result can be either True OR False.
+=>If the Result of Test Condition is True then PVM Executes Expr1 and whose Result placed in LHS Varname
+=>If the Result of Test Condition is False then PVM Executes Expr2 and whose Result placed in LHS Varname
+=>At any Point of PVM Executes either Expr1 or Expr2 depends on Test Cond whose Result placed in LHS   Variable.
+=============================================x============================================

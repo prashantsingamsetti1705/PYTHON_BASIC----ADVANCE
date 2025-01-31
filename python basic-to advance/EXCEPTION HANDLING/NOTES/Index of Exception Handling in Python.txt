@@ -1,0 +1,30 @@
+			========================================================
+					Exception Handling in Python--Most Imp
+			========================================================
+Index
+------------------------------------------------
+=>Purpose of Exception handling
+=>Types of Errors
+=>What is Exception
+=>Whst is Exception Handling
+=>Building Points to be Remembered in Exception handling
+=>Types of Exceptions
+		a) Pre-Defined OR Built-in Exceptions
+		b) Programmer OR User OR Custom-Defined Exceptions
+=>Programming Examples
+------------------------------------------------
+=>Key for Handling the Exceptions
+		1. try
+		2. except
+		3. else
+		4. finally
+		5. raise
+=>Syntax for Handling the Exceptions
+=>Various forms of except Block
+=>Programming Examples
+-------------------------------------------------------
+=>Steps for Developing of Programmer OR User OR Custom-Defined Exceptions
+=>Programming Examples
+--------------------------------------------------------
+ATM Implementation Project with Pre-Defined and Programmer-Defined  Exceptions
+========================================x==========================================

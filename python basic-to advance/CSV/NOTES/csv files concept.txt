@@ -1,0 +1,24 @@
+			====================================================
+					Working CSV Files --Most Imp---Pandas, Numpy
+			====================================================
+=>The CSV File stands for Comma Separated Values.
+=>The CSV File is one of the Text File and It Must be saved on Some file name with an extension .csv
+=>Internally All CSV Files are treated as Micro Soft Excel Comma Separated Values.
+=>To create CSV File
+					a) To go any text Editor and Choose Text File
+					b) First, Enter the Data   with Col Names separated by comma
+					c) Second, Enter Data with Record values separated by comma.
+					d) Save on Some File Name with an extension .csv.
+=>In Python Programming, to deal with CSV Files, we have a Pre-defined Module called 'csv'
+=>The csv module contains  the following Classes for Performing Various Operations on CSV Files.
+
+					1. csv.reader<-----------------------csv.reader()
+					2. csv.DictReader<-----------------csv.DictReader()
+
+					3. csv.writer<----------------------csv.writer()----------------List of List
+					4. csv.DictWriter<------------------csv.DictWriter()--------Dict of List
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. csv.reader<-----------------------csv.reader()
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax:         varname=csv.reader(FilePointer)
+		here varname is of type <class, _csv.reader>

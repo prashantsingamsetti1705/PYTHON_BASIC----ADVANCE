@@ -1,0 +1,33 @@
+		
+		======================================================
+				Student Information System
+		======================================================
+				1. Add New Student
+				2. View All Students Detauls
+				3. View Single Student Deatils
+				4. Delete Student
+				5. Update Student
+				6. Search for Student
+				7. Exit
+		======================================================
+			Enter Ur Choice: 
+		======================================================
+File System for Project
+---------------------------------------
+1. StudentMenu.py<-------------File Name and Module Name
+		menu()
+2. StudentAdd.py<-----------File Name and Module Name
+		addstudentrecord()
+3. StudentViews.py<----------File Name and Module Name
+		getallrecords()
+		getrecord()
+4. StudentDelete.py<-----------File Name and Module Name
+		deleterecord()
+5. StudentUpdate.py<-----------File Name and Module Name
+		updaterecord()
+6. StudentSearch.py<--------File Name and Module Name
+		searchrecord()
+
+7. StudentMainProj<----Main Program
+
+
